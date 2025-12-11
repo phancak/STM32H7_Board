@@ -1277,7 +1277,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_out line
 					(at 0 -25.4 0)
 					(length 2.54)
 					(name "VLX2"
@@ -1295,7 +1295,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_in line
 					(at 0 -27.94 0)
 					(length 2.54)
 					(name "BUCK2IN"
@@ -1313,7 +1313,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_in line
 					(at 7.62 -45.72 90)
 					(length 2.54)
 					(name "LDO3IN"
@@ -1331,7 +1331,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_out line
 					(at 10.16 -45.72 90)
 					(length 2.54)
 					(name "LDO3OUT"
@@ -1367,7 +1367,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_out line
 					(at 15.24 -45.72 90)
 					(length 2.54)
 					(name "VREFDDR"
@@ -1403,7 +1403,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_out line
 					(at 20.32 -45.72 90)
 					(length 2.54)
 					(name "LDO2OUT"
@@ -1421,7 +1421,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_in line
 					(at 22.86 -45.72 90)
 					(length 2.54)
 					(name "LDO25IN"
@@ -1457,7 +1457,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_out line
 					(at 25.4 -45.72 90)
 					(length 2.54)
 					(name "LDO5OUT"
@@ -1475,7 +1475,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_out line
 					(at 27.94 -45.72 90)
 					(length 2.54)
 					(name "LDO6OUT"
@@ -1493,7 +1493,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_in line
 					(at 30.48 -45.72 90)
 					(length 2.54)
 					(name "LDO16IN"
@@ -1511,7 +1511,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_out line
 					(at 36.83 -27.94 180)
 					(length 2.54)
 					(name "LDO1OUT"
@@ -1529,7 +1529,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_in line
 					(at 36.83 -25.4 180)
 					(length 2.54)
 					(name "BUCK4IN"
@@ -1547,7 +1547,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_out line
 					(at 36.83 -22.86 180)
 					(length 2.54)
 					(name "VLX4"
@@ -1583,7 +1583,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_out line
 					(at 36.83 -17.78 180)
 					(length 2.54)
 					(name "VOUT4"
@@ -1601,7 +1601,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_in line
 					(at 36.83 -15.24 180)
 					(length 2.54)
 					(name "BUCK3IN"
@@ -1619,7 +1619,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_out line
 					(at 36.83 -12.7 180)
 					(length 2.54)
 					(name "VLX3"
@@ -1673,7 +1673,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_out line
 					(at 36.83 -7.62 180)
 					(length 2.54)
 					(name "VOUT3"
@@ -1727,7 +1727,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_out line
 					(at 36.83 0 180)
 					(length 2.54)
 					(name "BOUT"
@@ -1763,7 +1763,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_in line
 					(at 29.21 17.78 270)
 					(length 2.54)
 					(name "VIN"
@@ -1817,7 +1817,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_out line
 					(at 21.59 17.78 270)
 					(length 2.54)
 					(name "LDO4OUT"
@@ -1889,7 +1889,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_in line
 					(at 13.97 17.78 270)
 					(length 2.54)
 					(name "VIO"
@@ -1961,7 +1961,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_out line
 					(at 0 -10.16 0)
 					(length 2.54)
 					(name "VOUT1"
@@ -1997,7 +1997,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_out line
 					(at 0 -15.24 0)
 					(length 2.54)
 					(name "VLX1"
@@ -2015,7 +2015,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_in line
 					(at 0 -17.78 0)
 					(length 2.54)
 					(name "BUCK1IN"
@@ -2033,7 +2033,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_out line
 					(at 0 -20.32 0)
 					(length 2.54)
 					(name "VOUT2"
@@ -2793,6 +2793,102 @@
 				)
 			)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 287.02 175.26)
@@ -2807,7 +2903,7 @@
 		(uuid "1b838892-12c3-4305-89aa-ce6ce758fa95")
 	)
 	(junction
-		(at 127.635 119.38)
+		(at 128.27 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1d5faafb-382c-4459-8a8f-322d673f8805")
@@ -2847,6 +2943,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "28c091bc-90e2-48ba-8e6e-dcb55c5fd9ca")
+	)
+	(junction
+		(at 243.84 241.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36cd936b-1a40-402d-ae25-5aa4146f58de")
 	)
 	(junction
 		(at 345.44 119.38)
@@ -2907,12 +3009,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "73d0cc4d-735e-4a0d-8d3f-4b9d7bd23ad1")
-	)
-	(junction
-		(at 177.8 177.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "74204abc-366e-4584-b007-05409e6d88f9")
 	)
 	(junction
 		(at 73.66 121.92)
@@ -3386,6 +3482,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 175.26) (xy 119.38 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e10b87f-7ee5-4e21-afec-69c2e981dc97")
+	)
+	(wire
+		(pts
 			(xy 200.66 246.38) (xy 217.17 246.38)
 		)
 		(stroke
@@ -3496,6 +3602,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 177.8) (xy 132.08 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "310986a4-7bf2-401a-b20c-c647795b69ef")
+	)
+	(wire
+		(pts
 			(xy 153.67 25.4) (xy 153.67 27.94)
 		)
 		(stroke
@@ -3573,6 +3689,16 @@
 			(type default)
 		)
 		(uuid "3af0a127-f1da-4cfd-acb6-3fb5b3af9573")
+	)
+	(wire
+		(pts
+			(xy 120.65 92.71) (xy 120.65 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b3c2cd4-36ae-47b8-baa6-da2b3910975f")
 	)
 	(wire
 		(pts
@@ -3756,7 +3882,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 115.57) (xy 127.635 115.57)
+			(xy 125.73 115.57) (xy 128.27 115.57)
 		)
 		(stroke
 			(width 0)
@@ -4036,16 +4162,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 177.8) (xy 132.08 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b9e42cc-c12f-424b-86d2-8acf7d5730e9")
-	)
-	(wire
-		(pts
 			(xy 210.82 71.12) (xy 200.66 71.12)
 		)
 		(stroke
@@ -4053,16 +4169,6 @@
 			(type default)
 		)
 		(uuid "7cb5f947-c49e-4670-b910-2f2166ad96ac")
-	)
-	(wire
-		(pts
-			(xy 160.02 177.8) (xy 177.8 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f75312a-c2af-4d7f-bc3b-ad627c719d3b")
 	)
 	(wire
 		(pts
@@ -4133,16 +4239,6 @@
 			(type default)
 		)
 		(uuid "84270d5b-a90d-4324-8c7d-9634532db3f5")
-	)
-	(wire
-		(pts
-			(xy 111.76 129.54) (xy 125.73 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84fd694f-1cce-488e-ac31-cab709a38c44")
 	)
 	(wire
 		(pts
@@ -4406,7 +4502,7 @@
 	)
 	(wire
 		(pts
-			(xy 127.635 115.57) (xy 127.635 119.38)
+			(xy 128.27 115.57) (xy 128.27 119.38)
 		)
 		(stroke
 			(width 0)
@@ -4476,7 +4572,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 241.3) (xy 250.19 241.3)
+			(xy 228.6 241.3) (xy 243.84 241.3)
 		)
 		(stroke
 			(width 0)
@@ -4616,7 +4712,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 177.8) (xy 177.8 180.34)
+			(xy 177.8 167.64) (xy 177.8 180.34)
 		)
 		(stroke
 			(width 0)
@@ -4996,6 +5092,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 129.54) (xy 125.73 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4f1c03f-573d-4504-82d7-14748966d503")
+	)
+	(wire
+		(pts
 			(xy 201.93 160.02) (xy 201.93 149.86)
 		)
 		(stroke
@@ -5096,16 +5202,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 167.64) (xy 177.8 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df4aff50-7fc5-4a6c-8c91-088caccb1dab")
-	)
-	(wire
-		(pts
 			(xy 154.94 187.96) (xy 154.94 193.04)
 		)
 		(stroke
@@ -5143,6 +5239,16 @@
 			(type default)
 		)
 		(uuid "e2d7c2a1-0a49-4d2f-8fcc-4911aeb3595f")
+	)
+	(wire
+		(pts
+			(xy 243.84 241.3) (xy 250.19 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3dc4a75-34c4-45c3-adad-d269c693d996")
 	)
 	(wire
 		(pts
@@ -5186,7 +5292,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 119.38) (xy 127.635 119.38)
+			(xy 88.9 119.38) (xy 128.27 119.38)
 		)
 		(stroke
 			(width 0)
@@ -5396,17 +5502,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 175.26) (xy 160.02 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd0ce4da-861c-4bf7-b77b-59057787bf5c")
-	)
-	(wire
-		(pts
-			(xy 127.635 119.38) (xy 132.08 119.38)
+			(xy 128.27 119.38) (xy 132.08 119.38)
 		)
 		(stroke
 			(width 0)
@@ -5454,7 +5550,7 @@
 	)
 	(text "Power output switch"
 		(exclude_from_sim no)
-		(at 217.17 77.724 90)
+		(at 217.17 77.47 90)
 		(effects
 			(font
 				(size 1 1)
@@ -5464,7 +5560,7 @@
 	)
 	(text "Overvoltage protection\nfor the PMOSFET VGS\n(VGS max is 8V)"
 		(exclude_from_sim no)
-		(at 156.972 259.842 0)
+		(at 157.48 260.35 0)
 		(effects
 			(font
 				(size 1 1)
@@ -5474,7 +5570,7 @@
 	)
 	(text "Power input switch"
 		(exclude_from_sim no)
-		(at 219.964 78.232 90)
+		(at 219.71 78.74 90)
 		(effects
 			(font
 				(size 1 1)
@@ -5484,7 +5580,7 @@
 	)
 	(text "1.7 to 3.3V, 350mA"
 		(exclude_from_sim no)
-		(at 182.372 179.832 0)
+		(at 182.88 180.34 0)
 		(effects
 			(font
 				(size 1 1)
@@ -5495,7 +5591,7 @@
 	)
 	(text "Vout_BK3 provides 3V3"
 		(exclude_from_sim no)
-		(at 125.222 91.948 0)
+		(at 144.272 92.456 0)
 		(effects
 			(font
 				(size 1 1)
@@ -5505,7 +5601,7 @@
 	)
 	(text "Reserved for MCU Core"
 		(exclude_from_sim no)
-		(at 96.012 120.904 0)
+		(at 96.52 120.65 0)
 		(effects
 			(font
 				(size 1 1)
@@ -5515,7 +5611,7 @@
 	)
 	(text "1.7 to 3.9V, 350mA"
 		(exclude_from_sim no)
-		(at 232.41 183.642 0)
+		(at 232.41 184.15 0)
 		(effects
 			(font
 				(size 1 1)
@@ -5526,7 +5622,7 @@
 	)
 	(text "(VIN from 2.8V to 5.5V DC)"
 		(exclude_from_sim no)
-		(at 312.674 63.754 0)
+		(at 312.42 63.5 0)
 		(effects
 			(font
 				(size 1 1)
@@ -5537,7 +5633,7 @@
 	)
 	(text "1 to 3.4V, 500mA"
 		(exclude_from_sim no)
-		(at 308.864 118.11 0)
+		(at 308.61 118.11 0)
 		(effects
 			(font
 				(size 1 1)
@@ -5548,7 +5644,7 @@
 	)
 	(text "Protects the MAX 6V VIN"
 		(exclude_from_sim no)
-		(at 231.394 251.46 0)
+		(at 231.14 251.46 0)
 		(effects
 			(font
 				(size 1 1)
@@ -5559,7 +5655,7 @@
 	)
 	(text "1.7 to 3.3V, 100mA"
 		(exclude_from_sim no)
-		(at 138.176 180.086 0)
+		(at 138.43 180.34 0)
 		(effects
 			(font
 				(size 1 1)
@@ -5570,7 +5666,7 @@
 	)
 	(text "1.7 to 3.3V, 350mA"
 		(exclude_from_sim no)
-		(at 272.542 136.906 0)
+		(at 273.05 137.16 0)
 		(effects
 			(font
 				(size 1 1)
@@ -5581,7 +5677,7 @@
 	)
 	(text "1 to 1.5V, 1000mA"
 		(exclude_from_sim no)
-		(at 105.156 131.572 0)
+		(at 105.41 132.08 0)
 		(effects
 			(font
 				(size 1 1)
@@ -5592,7 +5688,7 @@
 	)
 	(text "0.6 to 3.9V, 2000mA"
 		(exclude_from_sim no)
-		(at 307.594 128.778 0)
+		(at 307.34 128.27 0)
 		(effects
 			(font
 				(size 1 1)
@@ -5603,7 +5699,7 @@
 	)
 	(text "0.725 to 1.5V, 1500mA"
 		(exclude_from_sim no)
-		(at 91.44 116.586 0)
+		(at 91.44 116.84 0)
 		(effects
 			(font
 				(size 1 1)
@@ -5612,9 +5708,9 @@
 		)
 		(uuid "a9620833-5f7f-45df-893c-d80ddf20d2fb")
 	)
-	(text "VOUT2 / 2 (BUCK2)"
+	(text "VREFDDR: VOUT2 / 2 (BUCK2)"
 		(exclude_from_sim no)
-		(at 161.036 180.086 0)
+		(at 173.736 190.754 90)
 		(effects
 			(font
 				(size 1 1)
@@ -5625,7 +5721,7 @@
 	)
 	(text "3.3V (fixed), 50mA"
 		(exclude_from_sim no)
-		(at 179.324 31.75 0)
+		(at 179.07 31.75 0)
 		(effects
 			(font
 				(size 1 1)
@@ -5636,7 +5732,7 @@
 	)
 	(text "BK1 - STM32H7S3I8T6 VCORE dependding on VOS\nBK2 - Camera DVDD 1V5\nBK3 - STM32H7S3I8T6 I/O VDD 3V3\nBK4 - LCD, SDRAM, NAND 3V3, SD Detect Switch pull-up\nLDO1\nLDO2 - SD Card 3V3 (Adjustable to 1V8)\nLDO3 - VDDXSPI 1V8 Supply on the MCU\nLDO4\nLDO5 - Camera 2V8\nLDO6"
 		(exclude_from_sim no)
-		(at 36.576 39.878 0)
+		(at 36.83 39.37 0)
 		(effects
 			(font
 				(size 1 1)
@@ -5647,7 +5743,7 @@
 	)
 	(text "Polarity Protection"
 		(exclude_from_sim no)
-		(at 115.57 233.172 0)
+		(at 115.57 233.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5657,7 +5753,7 @@
 	)
 	(text "0.9 to 3.3V, 150mA"
 		(exclude_from_sim no)
-		(at 255.016 182.118 0)
+		(at 255.27 181.61 0)
 		(effects
 			(font
 				(size 1 1)
@@ -5665,39 +5761,6 @@
 			(justify left)
 		)
 		(uuid "fe446294-853d-437e-887b-0be8da84c5f2")
-	)
-	(label "BUCK3IN"
-		(at 245.11 119.38 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "01ce99b0-7682-4c92-b60e-57e749c2c906")
-	)
-	(label "VOUT4"
-		(at 245.11 121.92 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "04ff11b5-932e-4a3b-87c0-5226a3ca2956")
-	)
-	(label "LDO4OUT"
-		(at 215.9 73.66 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0537f0dc-b6b8-40c9-9138-e9804c9bff28")
 	)
 	(label "PWR_D+"
 		(at 240.03 241.3 180)
@@ -5710,18 +5773,7 @@
 		)
 		(uuid "10aec3e0-6160-4c7b-aa04-6158db643b15")
 	)
-	(label "LDO3IN"
-		(at 121.92 177.8 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "18858553-7d3b-4e09-9391-0aa091625845")
-	)
-	(label "Vout_BK4"
+	(label "3V3_BK4+"
 		(at 302.26 127 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5732,7 +5784,7 @@
 		)
 		(uuid "19014aa6-78db-411a-9e8f-4863744a1de4")
 	)
-	(label "Vout_BK1"
+	(label "BK1+"
 		(at 95.25 119.38 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5754,18 +5806,7 @@
 		)
 		(uuid "262f3e0b-02e9-465a-bb1a-483ebe54e328")
 	)
-	(label "LDO3OUT"
-		(at 204.47 163.83 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "280fb700-8964-4e60-a712-e5775879541b")
-	)
-	(label "LDO5OUT"
+	(label "2V8_LD5+"
 		(at 240.03 177.8 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5787,7 +5828,7 @@
 		)
 		(uuid "29fa74d6-89c4-443a-8e26-32bdbe345751")
 	)
-	(label "LDO3OUT"
+	(label "1V8_LD3+"
 		(at 142.24 177.8 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5798,18 +5839,7 @@
 		)
 		(uuid "3120caa9-9169-4232-b881-c86b08bdfd6e")
 	)
-	(label "PGND4"
-		(at 245.11 124.46 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "340a5038-039c-4d23-83dc-ad370f81525b")
-	)
-	(label "BOUT"
+	(label "BST_5V2+"
 		(at 245.11 104.14 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5831,7 +5861,7 @@
 		)
 		(uuid "35ce88f9-292e-4d5f-98d9-6d759843d0d4")
 	)
-	(label "LDO1OUT"
+	(label "LD1+"
 		(at 245.11 132.08 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5853,29 +5883,7 @@
 		)
 		(uuid "3d1ee993-a6f9-454f-91f1-b94f0a69163f")
 	)
-	(label "VREFDDR_OUT"
-		(at 162.56 177.8 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3d53f7ae-b7c6-4e7a-993f-a7439ec5a64e")
-	)
-	(label "BUCK2IN"
-		(at 135.89 152.4 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3f490b58-51bc-405e-9bfa-725d9888e31e")
-	)
-	(label "Vout_BK3"
+	(label "3V3_BK3+"
 		(at 302.26 116.84 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5885,17 +5893,6 @@
 			(justify left bottom)
 		)
 		(uuid "46ce4363-7194-4a28-ac72-20380b635ac5")
-	)
-	(label "VOUT3"
-		(at 245.11 111.76 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "47f3b6b7-2558-4090-aa84-f130bb44c64f")
 	)
 	(label "VBUSOTG"
 		(at 226.06 73.66 270)
@@ -5941,7 +5938,7 @@
 		)
 		(uuid "5758da34-4986-49f8-ae11-4423262518b7")
 	)
-	(label "LDO6OUT"
+	(label "LD6+"
 		(at 261.62 177.8 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5962,17 +5959,6 @@
 			(justify left bottom)
 		)
 		(uuid "5d0dfa35-cf4e-4ece-80e9-8c5793cffe51")
-	)
-	(label "LDO16IN"
-		(at 224.79 163.83 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "64ef1541-4882-405d-b826-b00efa5dcf9e")
 	)
 	(label "PWR+_PP"
 		(at 163.83 241.3 180)
@@ -6018,18 +6004,7 @@
 		)
 		(uuid "7f529592-c585-46c2-b106-e4906422cb8f")
 	)
-	(label "VOUT1"
-		(at 181.61 114.3 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "81d9650d-c594-4f9f-ad4a-caa2c90e9e88")
-	)
-	(label "LDO2OUT"
+	(label "3V3_LD2+"
 		(at 186.69 177.8 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6039,17 +6014,6 @@
 			(justify left bottom)
 		)
 		(uuid "85435ac0-fbb9-4ac3-958b-b546828158d1")
-	)
-	(label "LDO3IN"
-		(at 132.08 168.91 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8571d7c1-ee38-4b4f-ba91-de1cfde35007")
 	)
 	(label "PWR+"
 		(at 83.82 246.38 180)
@@ -6062,29 +6026,7 @@
 		)
 		(uuid "8658b4df-82c7-432d-92b5-b6a87e86129f")
 	)
-	(label "BUCK1IN"
-		(at 181.61 121.92 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "889584a2-52a3-46be-bc97-abc3f63fd715")
-	)
-	(label "LDO2OUT"
-		(at 214.63 163.83 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a06c56f5-528a-4ef3-afe4-a8cd72dcaea9")
-	)
-	(label "Vout_BK2"
+	(label "1V5_BK2+"
 		(at 116.84 129.54 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6094,28 +6036,6 @@
 			(justify left bottom)
 		)
 		(uuid "a2100427-0b85-4d86-9de1-1801d6ec9260")
-	)
-	(label "AGND"
-		(at 210.82 73.66 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a3a656ca-11f9-4fcd-b517-bdfe0414fc5c")
-	)
-	(label "PGND3"
-		(at 245.11 114.3 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a50ee71e-f1e2-488a-b734-ae5525b14b6f")
 	)
 	(label "SCL_STPMIC1"
 		(at 120.65 111.76 0)
@@ -6128,28 +6048,6 @@
 		)
 		(uuid "a957f5c4-ca6a-4286-bac6-9e6d6746cc2a")
 	)
-	(label "PGND2"
-		(at 181.61 127 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "afebe1a2-0395-4fad-b520-a0ec2fd081f4")
-	)
-	(label "LDO6OUT"
-		(at 222.25 163.83 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bbf7776d-6365-4a56-a973-55bbf44333aa")
-	)
 	(label "RST_PWR"
 		(at 86.36 251.46 180)
 		(fields_autoplaced yes)
@@ -6160,28 +6058,6 @@
 			(justify right bottom)
 		)
 		(uuid "bc9965c8-6dd1-44e2-9ba3-e3a8f99ef90a")
-	)
-	(label "PGBOOST"
-		(at 245.11 109.22 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bcd9016a-17b0-431e-995e-1fa1bb1b03b7")
-	)
-	(label "BUCK4IN"
-		(at 245.11 129.54 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bef0fd3c-0d99-41ee-82cf-b85a36b8fe32")
 	)
 	(label "VLXBST"
 		(at 245.11 106.68 180)
@@ -6194,17 +6070,6 @@
 		)
 		(uuid "cd1fa04a-0034-45ae-9a2e-1bfac232affb")
 	)
-	(label "VIO"
-		(at 208.28 73.66 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ce5edb2c-3ddb-42f5-8095-76a57f4213d7")
-	)
 	(label "INTLDO"
 		(at 213.36 73.66 270)
 		(fields_autoplaced yes)
@@ -6215,17 +6080,6 @@
 			(justify right bottom)
 		)
 		(uuid "d3379d9f-67f9-45c3-b6a9-f597b62440cf")
-	)
-	(label "Vout_BK3"
-		(at 120.65 95.25 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d3e3f1ab-1506-4fcf-9155-725c0e0522f4")
 	)
 	(label "VLX3"
 		(at 245.11 116.84 180)
@@ -6238,28 +6092,6 @@
 		)
 		(uuid "d939b353-b793-4e04-88b5-ee5dbfaea0b5")
 	)
-	(label "VOUT2"
-		(at 181.61 124.46 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e3cf045d-1b00-42aa-a7f0-6df3d7185a30")
-	)
-	(label "PGND1"
-		(at 181.61 116.84 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e57dc7df-172d-43b0-bc97-5bab80c920ff")
-	)
 	(label "WAKEUP"
 		(at 130.81 82.55 0)
 		(fields_autoplaced yes)
@@ -6270,39 +6102,6 @@
 			(justify left bottom)
 		)
 		(uuid "ea13ed0a-de80-4fab-b535-cf39b7bfe597")
-	)
-	(label "LDO5OUT"
-		(at 219.71 163.83 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ee91da9b-626a-4b58-80ac-126453e719b1")
-	)
-	(label "EPGND"
-		(at 200.66 73.66 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ef6f14c7-b55d-45c5-8f79-b7c15e9bb355")
-	)
-	(label "LDO25IN"
-		(at 217.17 163.83 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f17e909f-3441-4f52-9f11-79f2203fa6ef")
 	)
 	(label "RSTN"
 		(at 130.81 80.01 0)
@@ -6438,7 +6237,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 281.6352 77.47 0)
 			(effects
 				(font
@@ -6507,7 +6306,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 155.9052 187.96 0)
 			(effects
 				(font
@@ -6777,7 +6576,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 118.11 114.6048 0)
 			(effects
 				(font
@@ -6982,7 +6781,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 124.7648 140.97 0)
 			(effects
 				(font
@@ -7019,71 +6818,6 @@
 			(project "STM32H7_Board"
 				(path "/9b48e30a-b912-4658-a133-1a15707d5b7d/9f177927-57f0-4f81-8b01-253cb2102d0e"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 160.02 175.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "26c2fd96-b0e7-4483-8f6d-6e64349e38fc")
-		(property "Reference" "#PWR086"
-			(at 160.02 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VREFDDR+"
-			(at 165.608 172.466 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.02 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 160.02 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "63b9baac-db61-475d-b216-506d5a6c67e4")
-		)
-		(instances
-			(project "STM32H7_Board"
-				(path "/9b48e30a-b912-4658-a133-1a15707d5b7d/9f177927-57f0-4f81-8b01-253cb2102d0e"
-					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -7926,7 +7660,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 133.0452 187.96 0)
 			(effects
 				(font
@@ -7995,7 +7729,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 329.8952 162.56 0)
 			(effects
 				(font
@@ -8517,7 +8251,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 239.7252 82.55 0)
 			(effects
 				(font
@@ -8626,6 +8360,138 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 119.38 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "66961955-b11b-4c98-8d1d-91e0255104a0")
+		(property "Reference" "#PWR011"
+			(at 119.38 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_D+"
+			(at 114.046 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 119.38 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "299e30d0-2155-4085-9dfe-236406586fe1")
+		)
+		(instances
+			(project "STM32H7_Board"
+				(path "/9b48e30a-b912-4658-a133-1a15707d5b7d/9f177927-57f0-4f81-8b01-253cb2102d0e"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 243.84 241.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68b53078-bb1f-4804-bf44-34b21aeb9ddb")
+		(property "Reference" "#FLG07"
+			(at 243.84 239.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 243.84 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 243.84 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "732a16d5-3caf-441f-aaac-3441185cd159")
+		)
+		(instances
+			(project ""
+				(path "/9b48e30a-b912-4658-a133-1a15707d5b7d/9f177927-57f0-4f81-8b01-253cb2102d0e"
+					(reference "#FLG07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 228.6 184.15 0)
 		(unit 1)
@@ -8652,7 +8518,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 229.5652 187.96 0)
 			(effects
 				(font
@@ -8721,7 +8587,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 308.61 110.7948 0)
 			(effects
 				(font
@@ -8992,7 +8858,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 218.1352 187.96 0)
 			(effects
 				(font
@@ -9128,7 +8994,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 299.4152 137.16 0)
 			(effects
 				(font
@@ -9330,7 +9196,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 262.89 99.3648 0)
 			(effects
 				(font
@@ -9535,7 +9401,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 89.2048 165.1 0)
 			(effects
 				(font
@@ -9604,7 +9470,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 251.1552 187.96 0)
 			(effects
 				(font
@@ -9810,7 +9676,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 87.9348 133.35 0)
 			(effects
 				(font
@@ -9879,7 +9745,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 266.3952 143.51 0)
 			(effects
 				(font
@@ -10072,7 +9938,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 199.0852 187.96 0)
 			(effects
 				(font
@@ -10280,7 +10146,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 178.7652 187.96 0)
 			(effects
 				(font
@@ -10554,7 +10420,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 158.75 33.9852 0)
 			(effects
 				(font
@@ -10623,7 +10489,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 331.1652 96.52 0)
 			(effects
 				(font
@@ -10956,7 +10822,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 287.9852 187.96 0)
 			(effects
 				(font
@@ -11558,7 +11424,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 331.1652 130.81 0)
 			(effects
 				(font
@@ -11663,6 +11529,72 @@
 			(project "STM32H7_Board"
 				(path "/9b48e30a-b912-4658-a133-1a15707d5b7d/9f177927-57f0-4f81-8b01-253cb2102d0e"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 120.65 92.71 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f90ba6b7-f5a1-4e84-af27-70400ab81df2")
+		(property "Reference" "#PWR016"
+			(at 120.65 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3_BK3+"
+			(at 127.508 91.948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 120.65 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a8b2d5a-575e-4867-9216-55adfe8d9b0b")
+		)
+		(instances
+			(project "STM32H7_Board"
+				(path "/9b48e30a-b912-4658-a133-1a15707d5b7d/9f177927-57f0-4f81-8b01-253cb2102d0e"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -11825,7 +11757,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 158.75 42.8752 0)
 			(effects
 				(font
