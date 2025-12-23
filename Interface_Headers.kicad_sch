@@ -695,145 +695,6 @@
 				)
 			)
 		)
-		(symbol "Connector_Generic:Conn_01x02"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02_1_1"
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector_Generic:Conn_02x03_Odd_Even"
 			(pin_names
 				(offset 1.016) hide)
@@ -5081,12 +4942,6 @@
 		(uuid "48606e62-32f4-46a0-b752-1af8d2150b5c")
 	)
 	(junction
-		(at 175.26 201.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "494dbc44-75ce-4bb9-9066-9969c8c66f72")
-	)
-	(junction
 		(at 58.42 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5351,6 +5206,12 @@
 		(uuid "a9b5928c-4ad1-43ec-991d-2981b1c9f8c5")
 	)
 	(junction
+		(at 175.26 199.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "abcf93f6-e838-4e69-8373-346c5ff58221")
+	)
+	(junction
 		(at 162.56 240.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5477,6 +5338,12 @@
 		(uuid "e9892508-b8e3-4edf-930b-7d0f10e00a0f")
 	)
 	(junction
+		(at 175.26 201.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9e9ab5f-43fe-45db-8478-e1881e342a9b")
+	)
+	(junction
 		(at 58.42 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5511,12 +5378,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f30b8c7e-d813-4ac6-a119-befe5d0e2f2d")
-	)
-	(junction
-		(at 175.26 199.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f5f41fe0-5c5b-4f9b-9e08-ff4fb0e75137")
 	)
 	(junction
 		(at 349.25 121.92)
@@ -5804,6 +5665,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 196.85) (xy 149.86 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1324e423-707b-42e0-80d9-b382840b92f2")
+	)
+	(wire
+		(pts
 			(xy 185.42 256.54) (xy 185.42 257.81)
 		)
 		(stroke
@@ -5851,6 +5722,16 @@
 			(type default)
 		)
 		(uuid "16462b62-a49c-4d86-b632-ae88edc9523d")
+	)
+	(wire
+		(pts
+			(xy 149.86 201.93) (xy 175.26 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1684d01c-f764-4003-9901-0b3330bff66b")
 	)
 	(wire
 		(pts
@@ -6104,7 +5985,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 173.99) (xy 140.97 194.31)
+			(xy 140.97 173.99) (xy 140.97 191.77)
 		)
 		(stroke
 			(width 0)
@@ -6214,7 +6095,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 207.01) (xy 140.97 234.95)
+			(xy 140.97 204.47) (xy 140.97 234.95)
 		)
 		(stroke
 			(width 0)
@@ -6251,16 +6132,6 @@
 			(type default)
 		)
 		(uuid "31ec9a8f-5f8f-4402-8fdc-f8b616c2fb1f")
-	)
-	(wire
-		(pts
-			(xy 331.47 208.28) (xy 331.47 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3281edcd-fcca-42f6-82fd-79b1ea07ef98")
 	)
 	(wire
 		(pts
@@ -6554,16 +6425,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 201.93) (xy 175.26 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a49f15c-e193-417d-81f9-f914e120e2a3")
-	)
-	(wire
-		(pts
 			(xy 50.8 54.61) (xy 58.42 54.61)
 		)
 		(stroke
@@ -6601,16 +6462,6 @@
 			(type default)
 		)
 		(uuid "4c350f14-e20a-451f-8b32-7344241db0ac")
-	)
-	(wire
-		(pts
-			(xy 133.35 201.93) (xy 135.89 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d7d2451-7ad0-4b06-9876-4162cf74505c")
 	)
 	(wire
 		(pts
@@ -7004,6 +6855,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 196.85) (xy 149.86 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73137526-6cf1-4959-a421-1437a02add1c")
+	)
+	(wire
+		(pts
 			(xy 154.94 240.03) (xy 162.56 240.03)
 		)
 		(stroke
@@ -7041,6 +6902,16 @@
 			(type default)
 		)
 		(uuid "748e583f-db7f-4eb4-b3e3-67689dfa160f")
+	)
+	(wire
+		(pts
+			(xy 146.05 199.39) (xy 175.26 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74add8a2-5e9a-495c-ab0d-e2651092a217")
 	)
 	(wire
 		(pts
@@ -7111,16 +6982,6 @@
 			(type default)
 		)
 		(uuid "7870fdfc-2f37-4cb5-8cb6-ad3604f9e66f")
-	)
-	(wire
-		(pts
-			(xy 146.05 199.39) (xy 175.26 199.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7884f744-8bf3-417e-8b0c-d86d936cb2bd")
 	)
 	(wire
 		(pts
@@ -7241,6 +7102,26 @@
 			(type default)
 		)
 		(uuid "86556202-d14c-4372-8153-10ce38f20b98")
+	)
+	(wire
+		(pts
+			(xy 129.54 199.39) (xy 135.89 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88422c84-398b-4150-90ff-a36a4943e1fc")
+	)
+	(wire
+		(pts
+			(xy 135.89 196.85) (xy 133.35 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89842f83-fe59-40fc-968b-80d350ad2847")
 	)
 	(wire
 		(pts
@@ -7474,7 +7355,7 @@
 	)
 	(wire
 		(pts
-			(xy 316.23 208.28) (xy 328.93 208.28)
+			(xy 316.23 208.28) (xy 346.71 208.28)
 		)
 		(stroke
 			(width 0)
@@ -7544,16 +7425,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 199.39) (xy 135.89 199.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b3825fb-6146-4c9b-8ea4-4ea8b6e5abff")
-	)
-	(wire
-		(pts
 			(xy 194.31 234.95) (xy 191.77 234.95)
 		)
 		(stroke
@@ -7601,16 +7472,6 @@
 			(type default)
 		)
 		(uuid "a049e6e9-4a88-43ee-80dd-659e4c305bb6")
-	)
-	(wire
-		(pts
-			(xy 331.47 208.28) (xy 346.71 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0e0f804-9025-4c65-a190-051333e423d5")
 	)
 	(wire
 		(pts
@@ -7941,16 +7802,6 @@
 			(type default)
 		)
 		(uuid "be295ce7-de45-4532-be32-c42ac812b5dc")
-	)
-	(wire
-		(pts
-			(xy 328.93 209.55) (xy 328.93 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf11ae63-b692-4a5a-b4c9-3fe111aa8de0")
 	)
 	(wire
 		(pts
@@ -8394,7 +8245,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 227.33) (xy 133.35 201.93)
+			(xy 133.35 196.85) (xy 133.35 227.33)
 		)
 		(stroke
 			(width 0)
@@ -8868,25 +8719,6 @@
 		)
 		(uuid "50579cda-0be4-4e28-9f4d-69449905971a")
 	)
-	(text_box "USB OTG HS"
-		(exclude_from_sim no)
-		(at 27.94 151.765 0)
-		(size 207.645 118.11)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "f4cec0f9-c21a-4a60-a5ae-667b80e2a3c6")
-	)
 	(text "Place ESD close to the header"
 		(exclude_from_sim no)
 		(at 352.298 172.212 0)
@@ -8917,16 +8749,6 @@
 			(justify right bottom)
 		)
 		(uuid "cd4eb327-f9f3-4117-98a4-f7ff851f269f")
-	)
-	(text "Decide onn user button location ---------------"
-		(exclude_from_sim no)
-		(at 318.262 202.438 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "cf8e7d4a-e7ae-4b9d-9bf6-5fecb35aed73")
 	)
 	(text "USB HS\nMatched Net Lengths [Tolerance = 2mm]\nImpedance Constraint 90 Ohm [Min = 85.00 Max = 95.00 ]"
 		(exclude_from_sim no)
@@ -9070,7 +8892,7 @@
 		)
 		(uuid "79a802e4-0a96-4e3b-bd9d-39a04a2ba9b3")
 	)
-	(label "USB_D2-_DI"
+	(label "USB_DI_D2-"
 		(at 73.66 224.79 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9147,7 +8969,7 @@
 		)
 		(uuid "85959679-af67-4bc8-b271-097028d25385")
 	)
-	(label "USB_D2+_DI"
+	(label "USB_DI_D2+"
 		(at 73.66 227.33 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9245,17 +9067,6 @@
 			(justify right bottom)
 		)
 		(uuid "a97c4ff9-5b08-462f-aa29-bedc9bb8a3d6")
-	)
-	(label "USR_BTN_J"
-		(at 334.01 208.28 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "aba10760-58f5-4dfd-9a20-f4ddc4037ca5")
 	)
 	(label "SPI_MOSI"
 		(at 252.73 53.34 180)
@@ -9638,7 +9449,7 @@
 		)
 		(uuid "920d8730-0a3a-4a3d-8701-b8807adb5d8d")
 	)
-	(hierarchical_label "USB_D2+_DI"
+	(hierarchical_label "USB_DI_D2+"
 		(shape bidirectional)
 		(at 73.66 227.33 180)
 		(fields_autoplaced yes)
@@ -9818,7 +9629,7 @@
 		)
 		(uuid "e3e7eab2-537f-44ec-8d44-7a7959f5a527")
 	)
-	(hierarchical_label "USB_D2-_DI"
+	(hierarchical_label "USB_DI_D2-"
 		(shape bidirectional)
 		(at 73.66 224.79 180)
 		(fields_autoplaced yes)
@@ -10352,7 +10163,7 @@
 	)
 	(symbol
 		(lib_id "Power_Protection:USBLC6-2SC6")
-		(at 140.97 199.39 0)
+		(at 140.97 196.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10360,7 +10171,7 @@
 		(dnp no)
 		(uuid "1d792af2-fdd9-454f-b29a-763a4d280f69")
 		(property "Reference" "U7"
-			(at 141.732 192.024 0)
+			(at 141.732 189.484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10369,7 +10180,7 @@
 			)
 		)
 		(property "Value" "USBLC6-2SC6"
-			(at 141.732 194.31 0)
+			(at 141.732 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10378,7 +10189,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 142.24 205.74 0)
+			(at 142.24 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10389,7 +10200,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
-			(at 142.24 207.645 0)
+			(at 142.24 205.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10399,7 +10210,7 @@
 			)
 		)
 		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
-			(at 140.97 199.39 0)
+			(at 140.97 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10962,75 +10773,6 @@
 			(project "STM32H7_Board"
 				(path "/9b48e30a-b912-4658-a133-1a15707d5b7d/d103df48-e796-43e8-90a2-57f3cf29360c"
 					(reference "C34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 331.47 214.63 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4e69c8b1-3736-4fca-9afa-4ee7eef959c2")
-		(property "Reference" "J9"
-			(at 334.01 213.3599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "User Button Jumper"
-			(at 321.818 217.678 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 331.47 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 331.47 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 331.47 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2b80fb31-bda9-4446-a73f-65fd27f6bd96")
-		)
-		(pin "1"
-			(uuid "eb4c0e55-572f-49ee-a6d7-470d84f322e1")
-		)
-		(instances
-			(project "STM32H7_Board"
-				(path "/9b48e30a-b912-4658-a133-1a15707d5b7d/d103df48-e796-43e8-90a2-57f3cf29360c"
-					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -11622,7 +11364,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Horizontal"
+		(property "Footprint" "Personal_Project:PinHeader_2x03_P2.54mm_Horizontal_Court"
 			(at 349.25 80.01 0)
 			(effects
 				(font
@@ -12904,7 +12646,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Horizontal"
+		(property "Footprint" "Personal_Project:PinHeader_2x03_P2.54mm_Horizontal_Court"
 			(at 372.11 143.51 0)
 			(effects
 				(font
@@ -13656,7 +13398,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Horizontal"
+		(property "Footprint" "Personal_Project:PinHeader_2x03_P2.54mm_Horizontal_Court"
 			(at 349.25 53.34 0)
 			(effects
 				(font
