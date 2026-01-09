@@ -3059,12 +3059,6 @@
 		(uuid "a36df6e0-1108-4ca5-a21a-496430b0f7eb")
 	)
 	(junction
-		(at 265.43 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a38cbddc-a6a2-414c-a1be-b28e33aa8804")
-	)
-	(junction
 		(at 345.44 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3179,6 +3173,10 @@
 		(uuid "88b50309-2091-42ce-983f-711194ea5e6a")
 	)
 	(no_connect
+		(at 265.43 132.08)
+		(uuid "b7d9b9fa-39af-4fe1-96d9-43f20e5d6d91")
+	)
+	(no_connect
 		(at 226.06 86.36)
 		(uuid "c1ad5a69-9425-4b74-b89b-6c2ec872b9fb")
 	)
@@ -3268,16 +3266,6 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 143.51) (xy 265.43 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b7979b0-f7f2-4b3d-b62a-83f4bb5b3c9f")
-	)
-	(wire
-		(pts
 			(xy 157.48 95.25) (xy 173.99 95.25)
 		)
 		(stroke
@@ -3285,16 +3273,6 @@
 			(type default)
 		)
 		(uuid "10574699-5991-4726-9476-b7e3c06874dc")
-	)
-	(wire
-		(pts
-			(xy 265.43 132.08) (xy 276.86 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11709d02-315f-40ca-9b34-6e3d975c4d21")
 	)
 	(wire
 		(pts
@@ -4628,16 +4606,6 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 132.08) (xy 265.43 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9eb157e-a5f9-4b78-b7d1-f3f422a46b22")
-	)
-	(wire
-		(pts
 			(xy 214.63 149.86) (xy 214.63 177.8)
 		)
 		(stroke
@@ -5262,7 +5230,7 @@
 	)
 	(text "1.7 to 3.3V, 350mA"
 		(exclude_from_sim no)
-		(at 273.05 137.16 0)
+		(at 248.92 133.858 0)
 		(effects
 			(font
 				(size 1 1)
@@ -6443,71 +6411,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 276.86 132.08 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2fc3ccc1-32a7-426c-ad95-7eed019ebc42")
-		(property "Reference" "#PWR083"
-			(at 273.05 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "LD1+"
-			(at 281.178 133.858 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 276.86 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 276.86 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 276.86 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e8d88de0-81e8-446b-852d-6766871ccf28")
-		)
-		(instances
-			(project "STM32H7_Board"
-				(path "/9b48e30a-b912-4658-a133-1a15707d5b7d/9f177927-57f0-4f81-8b01-253cb2102d0e"
-					(reference "#PWR083")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 124.46 262.89 270)
 		(unit 1)
@@ -6978,73 +6881,6 @@
 			(project "STM32H7_Board"
 				(path "/9b48e30a-b912-4658-a133-1a15707d5b7d/9f177927-57f0-4f81-8b01-253cb2102d0e"
 					(reference "#PWR0103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 265.43 146.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "390a0005-2007-477d-ba4d-4ee6a88aab92")
-		(property "Reference" "#PWR0106"
-			(at 265.43 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 262.89 149.098 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 265.43 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 265.43 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 265.43 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c7368750-e508-40e4-bcfc-df689b8a5c88")
-		)
-		(instances
-			(project "STM32H7_Board"
-				(path "/9b48e30a-b912-4658-a133-1a15707d5b7d/9f177927-57f0-4f81-8b01-253cb2102d0e"
-					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -8790,75 +8626,6 @@
 			(project "STM32H7_Board"
 				(path "/9b48e30a-b912-4658-a133-1a15707d5b7d/9f177927-57f0-4f81-8b01-253cb2102d0e"
 					(reference "C39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 265.43 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "96782d43-e91e-4aea-ad32-7a21774ca22b")
-		(property "Reference" "C63"
-			(at 267.208 137.668 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4u7"
-			(at 267.208 145.034 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 266.3952 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 265.43 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 265.43 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1796193b-808f-4e32-8fbe-172b97dfb447")
-		)
-		(pin "2"
-			(uuid "af023096-0727-4ccf-9a80-abbf39a30efe")
-		)
-		(instances
-			(project "STM32H7_Board"
-				(path "/9b48e30a-b912-4658-a133-1a15707d5b7d/9f177927-57f0-4f81-8b01-253cb2102d0e"
-					(reference "C63")
 					(unit 1)
 				)
 			)
