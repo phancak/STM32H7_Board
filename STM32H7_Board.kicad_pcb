@@ -1969,7 +1969,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C111"
-			(at -3.8 0.1 360)
+			(at -3.8 0.1 0)
 			(layer "F.SilkS")
 			(uuid "a650eb06-3e1b-455c-ad10-59c169a1e86d")
 			(effects
@@ -1980,7 +1980,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 0 1.68 360)
+			(at 0 1.68 0)
 			(layer "F.Fab")
 			(uuid "7b22ad14-4d0f-44a1-a594-6f4c6e280acd")
 			(effects
@@ -2135,7 +2135,7 @@
 			(uuid "08d721b7-31a7-4798-9386-918dfc3b6435")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "1f5bec51-8258-4310-9895-c1e0718048cf")
 			(effects
@@ -9812,7 +9812,7 @@
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "J8"
-			(at 0 -2.33 360)
+			(at 0 -2.33 0)
 			(layer "F.SilkS")
 			(uuid "5fe3be45-a534-46ef-9840-a78be94935e2")
 			(effects
@@ -9823,7 +9823,7 @@
 			)
 		)
 		(property "Value" "IM0_Jumper"
-			(at 0 7.41 360)
+			(at 0 7.41 0)
 			(layer "F.Fab")
 			(uuid "45c932ae-50b5-4c79-95bd-56b4d9a8f049")
 			(effects
@@ -25534,7 +25534,7 @@
 			(uuid "58a66d23-8f52-4fb5-b1d9-a93d5dfc55fb")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.54 360)
+			(at 0 2.54 0)
 			(layer "F.Fab")
 			(uuid "7f7a0200-7b58-4419-a9de-14b4dae5c1de")
 			(effects
@@ -26270,7 +26270,7 @@
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "J5"
-			(at 0 -2.33 360)
+			(at 0 -2.33 0)
 			(layer "F.SilkS")
 			(uuid "342526b2-399f-4302-ba3f-e6dcd5652c2b")
 			(effects
@@ -26281,7 +26281,7 @@
 			)
 		)
 		(property "Value" "IM2_Jumper"
-			(at 0 7.41 360)
+			(at 0 7.41 0)
 			(layer "F.Fab")
 			(uuid "7c07360b-5c6f-410c-816b-e9821fd4e43a")
 			(effects
@@ -30390,7 +30390,7 @@
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "J6"
-			(at 0 -2.33 360)
+			(at 0 -2.33 0)
 			(layer "F.SilkS")
 			(uuid "e29e2f4d-ec96-4b3b-89f8-6a092fd648fc")
 			(effects
@@ -30401,7 +30401,7 @@
 			)
 		)
 		(property "Value" "IM1_Jumper"
-			(at 0 7.41 360)
+			(at 0 7.41 0)
 			(layer "F.Fab")
 			(uuid "527be068-a20b-4962-beea-5eccd7a68cfd")
 			(effects
@@ -41302,15 +41302,6 @@
 		(uuid "3547cd86-c95d-4dcd-ab64-ac0799680991")
 	)
 	(via
-		(at 102.1 66.2)
-		(size 0.7)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net 1)
-		(uuid "3ab665f9-ec1c-4c15-a6f1-dda3bd16c2c1")
-	)
-	(via
 		(at 116.95 98.725)
 		(size 0.7)
 		(drill 0.3)
@@ -41519,24 +41510,6 @@
 		(uuid "b506127c-da5f-438f-ab1b-3dd85acd2804")
 	)
 	(via
-		(at 102.1 68)
-		(size 0.7)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net 1)
-		(uuid "c2847069-35a7-43a3-8b19-0412cae86e8a")
-	)
-	(via
-		(at 102.1 64.3)
-		(size 0.7)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net 1)
-		(uuid "cdff4091-0b31-4638-851e-6e8884674100")
-	)
-	(via
 		(at 121.05 107.2)
 		(size 0.7)
 		(drill 0.3)
@@ -41571,15 +41544,6 @@
 		(free yes)
 		(net 1)
 		(uuid "e4664770-e8ac-4c51-a579-4beacf2edf62")
-	)
-	(via
-		(at 102.1 62.4)
-		(size 0.7)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net 1)
-		(uuid "f219e016-0048-4b28-99ae-3bd47c80c14f")
 	)
 	(via
 		(at 151.5 80.9)
