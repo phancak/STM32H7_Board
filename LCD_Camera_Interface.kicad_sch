@@ -3127,7 +3127,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "2V8_LD5+"
+		(property "Value" "2V8_BK3+"
 			(at 269.24 96.266 0)
 			(effects
 				(font
@@ -3602,7 +3602,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "2V8_LD5+"
+		(property "Value" "2V8_BK3+"
 			(at 299.72 117.856 0)
 			(effects
 				(font
@@ -3940,7 +3940,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "2V8_LD5+"
+		(property "Value" "2V8_BK3+"
 			(at 295.91 144.526 0)
 			(effects
 				(font

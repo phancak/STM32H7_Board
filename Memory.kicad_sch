@@ -141,6 +141,127 @@
 				)
 			)
 		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Personal_Projects:NAND_MT29F2G16ABAEAWP-AITE.kicad_sym"
 			(pin_names
 				(offset 0.254)
@@ -2462,6 +2583,12 @@
 		(uuid "0fee7a0d-9371-461c-9c1c-490ea632e4c1")
 	)
 	(junction
+		(at 265.43 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12c8cc74-9da0-482f-a4bc-baa35f72c05f")
+	)
+	(junction
 		(at 281.94 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2490,6 +2617,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4059a75d-6e05-4ffc-88be-ea1dc10b37e1")
+	)
+	(junction
+		(at 240.03 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ac79954-c4e9-4242-9cef-a353eb53c89a")
 	)
 	(junction
 		(at 120.65 87.63)
@@ -2805,6 +2938,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 110.49) (xy 240.03 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2eb7192d-50d2-41d6-ba3f-b88b0a8809e3")
+	)
+	(wire
+		(pts
 			(xy 111.76 87.63) (xy 120.65 87.63)
 		)
 		(stroke
@@ -2892,6 +3035,16 @@
 			(type default)
 		)
 		(uuid "4cd6db3c-6321-4967-bda7-6de71c97460e")
+	)
+	(wire
+		(pts
+			(xy 265.43 121.92) (xy 265.43 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d2302d1-b6e3-40ee-9003-85716d8008b7")
 	)
 	(wire
 		(pts
@@ -3385,6 +3538,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 125.73) (xy 254 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f373e97-8fa6-4efa-bac7-53a1dfa1bfb5")
+	)
+	(wire
+		(pts
 			(xy 120.65 85.09) (xy 120.65 87.63)
 		)
 		(stroke
@@ -3525,7 +3688,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 125.73) (xy 254 125.73)
+			(xy 271.78 125.73) (xy 265.43 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3665,7 +3828,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 138.43) (xy 240.03 105.41)
+			(xy 240.03 138.43) (xy 240.03 110.49)
 		)
 		(stroke
 			(width 0)
@@ -4045,6 +4208,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 110.49) (xy 240.03 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4bc14e0-8ae6-4488-a008-898c011697f6")
+	)
+	(wire
+		(pts
 			(xy 118.11 130.81) (xy 102.87 130.81)
 		)
 		(stroke
@@ -4052,6 +4225,16 @@
 			(type default)
 		)
 		(uuid "f61ce219-a8f7-4afd-bf73-c7cea25d3985")
+	)
+	(wire
+		(pts
+			(xy 265.43 114.3) (xy 265.43 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f732a22b-43d6-46c6-a3a2-8f55aa1c9a3a")
 	)
 	(wire
 		(pts
@@ -4082,6 +4265,25 @@
 			(type default)
 		)
 		(uuid "fcd68dc2-678b-473f-ac22-e7f4ec7f83a8")
+	)
+	(text_box "Note:\nSDRAM\n- CKE Clock Enable (LOW) can be put into a low power state To enter a deep sleep Issue a SELF REFRESH command  while CKE is pulled Low\n\nNAND\n- Use FMC_NCE CE Chip Enable (HIGH) to put into low power mode"
+		(exclude_from_sim no)
+		(at 27.94 224.79 0)
+		(size 45.085 45.72)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left top)
+		)
+		(uuid "2681a5f9-d9a8-41b6-a230-2bcf6a600dff")
 	)
 	(text_box "NAND Flash Memory"
 		(exclude_from_sim no)
@@ -5848,7 +6050,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 240.03 105.41 0)
+		(at 240.03 100.33 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5857,7 +6059,7 @@
 		(dnp no)
 		(uuid "609f13db-86ea-4219-a7af-166c15d5cdc6")
 		(property "Reference" "#PWR065"
-			(at 240.03 109.22 0)
+			(at 240.03 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5866,7 +6068,7 @@
 			)
 		)
 		(property "Value" "3V3_BK4+"
-			(at 242.316 108.204 90)
+			(at 242.316 103.124 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5874,7 +6076,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 240.03 105.41 0)
+			(at 240.03 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5883,7 +6085,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 105.41 0)
+			(at 240.03 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5892,7 +6094,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 240.03 105.41 0)
+			(at 240.03 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6450,6 +6652,73 @@
 			(project "STM32H7_Board"
 				(path "/9b48e30a-b912-4658-a133-1a15707d5b7d/c1273a5b-dc13-48da-a35d-ed40e44ccc48"
 					(reference "C48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 265.43 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8d0f9d37-19bd-4c56-9512-f14a130662ab")
+		(property "Reference" "R5"
+			(at 266.7 113.284 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4k7"
+			(at 266.7 122.936 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_1"
+			(at 263.652 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 265.43 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6566a3d-fd49-4db0-881d-c4bf49ac90c2")
+		)
+		(pin "2"
+			(uuid "d8780f4f-ed53-4a61-8bb1-34a6d9b27e3a")
+		)
+		(instances
+			(project "STM32H7_Board"
+				(path "/9b48e30a-b912-4658-a133-1a15707d5b7d/c1273a5b-dc13-48da-a35d-ed40e44ccc48"
+					(reference "R5")
 					(unit 1)
 				)
 			)
