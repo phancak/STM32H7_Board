@@ -230,6 +230,10 @@
           "drill": 0.0
         },
         {
+          "diameter": 0.45,
+          "drill": 0.3
+        },
+        {
           "diameter": 0.7,
           "drill": 0.3
         },
@@ -820,6 +824,10 @@
       {
         "netclass": "DCMIPP",
         "pattern": "*STROBE*"
+      },
+      {
+        "netclass": "DCMIPP",
+        "pattern": "*PWDN*"
       }
     ]
   },
