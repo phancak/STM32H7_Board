@@ -36,12 +36,6 @@
 		(uuid "5231f1dd-4744-405a-8261-b75435bd4560")
 	)
 	(junction
-		(at 297.18 198.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5c488480-08da-4db7-a92f-9f8752607587")
-	)
-	(junction
 		(at 292.1 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -88,12 +82,20 @@
 		(uuid "7d8ec0b0-ea59-4d16-a7c7-905b808c7dc1")
 	)
 	(no_connect
+		(at 245.11 68.58)
+		(uuid "7f9945dd-5209-4d34-8f1a-0bc6784cfa1f")
+	)
+	(no_connect
 		(at 245.11 213.36)
 		(uuid "86885e78-003a-480a-ad80-c128afbe60fa")
 	)
 	(no_connect
 		(at 317.5 245.11)
 		(uuid "b0afa12f-9c7f-4c2b-ba02-892ae60cfbe8")
+	)
+	(no_connect
+		(at 317.5 68.58)
+		(uuid "d7f083fd-48c4-40f3-a46b-db91ae2fe319")
 	)
 	(no_connect
 		(at 245.11 215.9)
@@ -1096,16 +1098,6 @@
 		)
 		(uuid "0a6a1d3f-0071-40a3-b231-104affdbb431")
 	)
-	(wire
-		(pts
-			(xy 297.18 63.5) (xy 297.18 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ac0db2b-0e58-4ef1-aea4-9f987ba76d10")
-	)
 	(bus
 		(pts
 			(xy 260.35 38.1) (xy 260.35 40.64)
@@ -1268,16 +1260,6 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 63.5) (xy 317.5 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "192c63e4-3b72-44fc-a114-d2a264442eef")
-	)
-	(wire
-		(pts
 			(xy 245.11 58.42) (xy 317.5 58.42)
 		)
 		(stroke
@@ -1375,16 +1357,6 @@
 			(type default)
 		)
 		(uuid "23914e51-f7a7-4f54-8025-07ec2a2a7b9e")
-	)
-	(wire
-		(pts
-			(xy 245.11 243.84) (xy 274.32 243.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "249b47a5-31b5-41bf-95a0-1b1af21027e7")
 	)
 	(wire
 		(pts
@@ -1855,16 +1827,6 @@
 			(type default)
 		)
 		(uuid "461f3f26-6ff3-4562-97f4-44ae2d2cab39")
-	)
-	(wire
-		(pts
-			(xy 245.11 68.58) (xy 317.5 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "479021b6-fe71-4ce1-a3b5-d769ad06702e")
 	)
 	(bus
 		(pts
@@ -2486,16 +2448,6 @@
 		)
 		(uuid "7c7a9aa8-ede0-475f-a60a-1848e722f8ea")
 	)
-	(wire
-		(pts
-			(xy 245.11 177.8) (xy 317.5 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7de19258-9148-41c9-922d-bdf3f6f8e8e3")
-	)
 	(bus
 		(pts
 			(xy 176.53 43.18) (xy 176.53 45.72)
@@ -2775,16 +2727,6 @@
 			(type default)
 		)
 		(uuid "8cb75e95-782f-463a-aaac-53bb0be203a9")
-	)
-	(wire
-		(pts
-			(xy 245.11 246.38) (xy 276.86 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8cccb701-bbc3-44c2-8357-ea02bceef037")
 	)
 	(bus
 		(pts
@@ -3175,6 +3117,16 @@
 			(type default)
 		)
 		(uuid "aa1af2e3-a930-41a4-810d-a99e33954340")
+	)
+	(wire
+		(pts
+			(xy 245.11 177.8) (xy 317.5 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa43e0eb-862e-4d91-8a62-d1924a4e60c0")
 	)
 	(wire
 		(pts
@@ -3748,6 +3700,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 63.5) (xy 317.5 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da774fda-d689-447e-837d-d4667c452a5e")
+	)
+	(wire
+		(pts
 			(xy 302.26 157.48) (xy 317.5 157.48)
 		)
 		(stroke
@@ -3996,6 +3958,16 @@
 		)
 		(uuid "e9c118c1-3147-462f-88e1-0cecb04f3271")
 	)
+	(wire
+		(pts
+			(xy 245.11 243.84) (xy 274.32 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eab78bbc-58f8-4783-8662-3d6e36c404a6")
+	)
 	(bus
 		(pts
 			(xy 260.35 35.56) (xy 260.35 38.1)
@@ -4136,6 +4108,16 @@
 		)
 		(uuid "f66986f1-e0c2-460f-8ceb-882792a660ec")
 	)
+	(wire
+		(pts
+			(xy 245.11 246.38) (xy 276.86 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6c4669c-6307-4d55-aea6-df5c0e5f7399")
+	)
 	(bus
 		(pts
 			(xy 134.62 101.6) (xy 134.62 104.14)
@@ -4206,6 +4188,25 @@
 		)
 		(uuid "ff2ba260-4626-48b8-8a87-edf3c1369172")
 	)
+	(text_box "NOTES:\n- Camera RST connected to MCU GPIO PA5 43\n- MCU RST connected to STPMIC1\n- STPIMIC1 activates RST\n- STPMIC1 has own powerdown button "
+		(exclude_from_sim no)
+		(at 62.865 259.08 0)
+		(size 69.85 26.035)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left top)
+		)
+		(uuid "20fe22fb-d9c5-4aae-80ba-41f5893c72db")
+	)
 	(text_box "NOTES:\nVoltages: 5, 3.3, 2.8, 1.8, 1.5V\n\n1. Micro USB B because the PCB will not be\nfunctioning as a host (no external drive)\nMatched Net Lengths [Tolerance = 2mm]\nImpedance Constraint [Min = 85.00 Max = 95.00 ]\n\nTypical Current Consumption (based on ST's data sheets):\n- Run Mode (Vcore = 1.15V, 480 MHz):\n  Approximately 260-300 mA at full speed with all peripherals enabled.\n- Low Power Run (LP mode, 24 MHz, Vcore = 0.9V):\n  Typically around 15-20 mA.\n- Standby Mode (RTC enabled, backup RAM powered):\n   1-2 µA, depending on the specific settings.\n\nCamera Connection\n- The camera is based on 2.8V I/O voltage\n- This should still work with 3.3V based MCU (3.3V * 0.7 = 2.31<2.8)\n- The pins on the camera could be damaged by the 3.3V\n  (STM32 used these voltage levels in their design)\n\nDisplay Interface\n1. NOR Flash Mode (Recommended)\n✅ Best choice for parallel LCDs with built-in controllers.\n✅ Supports direct memory-mapped access (write commands and data directly).\n✅ Fast random access (suitable for sending commands/pixels).\n❌ Not for framebuffers (use external SDRAM for full-screen buffering).\n🔹 Use NOR mode if your display requires an 8080/6800 bus (e.g., ILI9341, SSD1963).\n\n📌 Setup Example:\n\nMemory Type: NOR\nMemory Width: 8-bit or 16-bit\nChip Select (NE1, NE2, etc.): Connect to LCD\nTiming Configuration: Match LCD controller's datasheet"
 		(exclude_from_sim no)
 		(at 421.005 161.925 0)
@@ -4247,7 +4248,7 @@
 	)
 	(text "Length Match"
 		(exclude_from_sim no)
-		(at 281.432 44.196 0)
+		(at 281.94 44.45 0)
 		(effects
 			(font
 				(size 1 1)
@@ -5481,106 +5482,6 @@
 				(justify left top)
 			)
 		)
-		(pin "DCMIPP_PIXCLK" bidirectional
-			(at 317.5 55.88 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "374b3ff5-9daf-43a2-8974-005ab1f83684")
-		)
-		(pin "DCMIPP_D3" bidirectional
-			(at 317.5 30.48 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "c81a2901-da85-4bbc-a48d-a8dff24fc699")
-		)
-		(pin "DCMIPP_D5" bidirectional
-			(at 317.5 35.56 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "bc244d7d-7a70-42b8-b652-55c511d2e052")
-		)
-		(pin "PWDN" bidirectional
-			(at 317.5 66.04 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "81605830-9970-4902-aac2-d50da9b70f37")
-		)
-		(pin "DCMIPP_D4" bidirectional
-			(at 317.5 33.02 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "cdcd693e-d915-4c25-ac6f-27b9657f3348")
-		)
-		(pin "DCMIPP_D2" bidirectional
-			(at 317.5 27.94 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "269c376d-4852-4043-a42c-c8722552704a")
-		)
-		(pin "DCMIPP_D6" bidirectional
-			(at 317.5 38.1 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "975eedac-572b-44c5-b880-854ac987e512")
-		)
-		(pin "DCMIPP_D7" bidirectional
-			(at 317.5 40.64 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "f18bd1fe-46b4-472c-b0bb-32aabcd80945")
-		)
-		(pin "DCMIPP_D8" bidirectional
-			(at 317.5 43.18 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "07cdf730-862e-4b48-9ac7-78123c392f85")
-		)
-		(pin "DCMIPP_D9" bidirectional
-			(at 317.5 45.72 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "fa11d993-786d-4b54-a3ae-ddeeaf561458")
-		)
 		(pin "CAMERA_SCL" bidirectional
 			(at 317.5 76.2 180)
 			(effects
@@ -5601,26 +5502,6 @@
 			)
 			(uuid "35934f5a-5711-4655-b0db-da6b452a0431")
 		)
-		(pin "DCMIPP_HSYNC" bidirectional
-			(at 317.5 58.42 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "adfd2e68-9053-4183-b307-a0514c6bd202")
-		)
-		(pin "DCMIPP_VSYNC" bidirectional
-			(at 317.5 60.96 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "9c5841ed-b7a4-493a-948a-e57c7a98db57")
-		)
 		(pin "CAMERA_SDA" bidirectional
 			(at 317.5 73.66 180)
 			(effects
@@ -5640,6 +5521,126 @@
 				(justify left)
 			)
 			(uuid "7ad8f9c7-c67c-44d0-b616-56dc9f1e09cc")
+		)
+		(pin "Y7" bidirectional
+			(at 317.5 40.64 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d9a9263b-4498-41d1-8202-27796998f115")
+		)
+		(pin "Y8" bidirectional
+			(at 317.5 43.18 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "620ec7d6-dc24-4e05-b4b9-96d4c40abee3")
+		)
+		(pin "HSYNC" bidirectional
+			(at 317.5 58.42 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fcc3bf67-7ddf-4af5-a7f4-0a21ea528d7f")
+		)
+		(pin "VSYNC" bidirectional
+			(at 317.5 60.96 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "642fa6f3-2afc-4e83-bdde-c0250e290ebb")
+		)
+		(pin "CAM_PWDN" bidirectional
+			(at 317.5 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c661ea2c-fc9d-45f4-add3-4dbc8cfa5663")
+		)
+		(pin "Y9" bidirectional
+			(at 317.5 45.72 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2521adae-7737-4806-9d26-4028db9dd23a")
+		)
+		(pin "Y6" bidirectional
+			(at 317.5 38.1 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "522d1f3f-ed35-43b6-9bcd-d7f4fcfdd84b")
+		)
+		(pin "Y5" bidirectional
+			(at 317.5 35.56 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "192a1cd3-1902-4ae7-80dc-12744ed0791e")
+		)
+		(pin "PCLK" bidirectional
+			(at 317.5 55.88 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0b0ef623-4777-4733-8229-79a91e211509")
+		)
+		(pin "Y2" bidirectional
+			(at 317.5 27.94 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "86be9305-6e92-4c27-8ed3-4cc8bfe624f4")
+		)
+		(pin "Y3" bidirectional
+			(at 317.5 30.48 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e9c3864b-4554-4174-bb5d-2ab7e6ca5483")
+		)
+		(pin "Y4" bidirectional
+			(at 317.5 33.02 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b6212a0b-e880-4d5b-b3d8-4ce94a93593a")
 		)
 		(instances
 			(project "STM32H7_Board"
@@ -6928,7 +6929,7 @@
 			(uuid "083076b1-403a-4f0a-b663-b13c6f1f26e5")
 		)
 		(pin "PA5" bidirectional
-			(at 245.11 177.8 0)
+			(at 245.11 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6948,7 +6949,7 @@
 			(uuid "2dac331e-ff92-4435-9686-410bcd5c9319")
 		)
 		(pin "BOOT0" input
-			(at 245.11 140.97 0)
+			(at 245.11 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
