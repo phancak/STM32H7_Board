@@ -540,7 +540,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "DCMIPP",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(0, 194, 194)",
         "schematic_color": "rgb(204, 102, 0)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -557,7 +557,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "DEBUG_SW",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(0, 0, 255)",
         "schematic_color": "rgb(0, 0, 255)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -574,7 +574,41 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "FMC",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(0, 132, 0)",
+        "schematic_color": "rgb(132, 132, 132)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "FMC_ADDR",
+        "pcb_color": "rgb(0, 194, 0)",
+        "schematic_color": "rgb(72, 72, 72)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "FMC_DATA",
+        "pcb_color": "rgb(0, 255, 0)",
         "schematic_color": "rgb(0, 0, 0)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -591,7 +625,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "GND",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(132, 132, 132)",
         "schematic_color": "rgb(132, 132, 132)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -608,7 +642,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "I2C",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(255, 0, 255)",
         "schematic_color": "rgb(255, 0, 255)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -659,7 +693,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "RESET",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(194, 194, 0)",
         "schematic_color": "rgb(132, 132, 0)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -693,7 +727,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "SPI",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(132, 0, 132)",
         "schematic_color": "rgb(0, 194, 0)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -727,7 +761,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "USB",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(0, 255, 255)",
         "schematic_color": "rgb(0, 194, 194)",
         "track_width": 0.235,
         "via_diameter": 0.8,
@@ -802,8 +836,8 @@
         "pattern": "*ADC*"
       },
       {
-        "netclass": "FMC",
-        "pattern": "*FMC*"
+        "netclass": "FMC_DATA",
+        "pattern": "*FMC_D*"
       },
       {
         "netclass": "DCMIPP",
@@ -840,6 +874,14 @@
       {
         "netclass": "DCMIPP",
         "pattern": "*PF9_TIM14_CH1*"
+      },
+      {
+        "netclass": "FMC_ADDR",
+        "pattern": "*FMC_A*"
+      },
+      {
+        "netclass": "FMC",
+        "pattern": "*FMC*"
       }
     ]
   },
