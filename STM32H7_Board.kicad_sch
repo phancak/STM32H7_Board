@@ -7118,36 +7118,6 @@
 				(justify left top)
 			)
 		)
-		(pin "SRAM_OE#" input
-			(at 119.38 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "a362c15c-0d2f-4f97-9d13-cf10ce495f9a")
-		)
-		(pin "SRAM_WE#" input
-			(at 119.38 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "861bfd8f-8ded-43f7-9ef4-2b6bc2752190")
-		)
-		(pin "SRAM_CS#" input
-			(at 119.38 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "3193d3b1-e461-469f-8144-ca619b467025")
-		)
 		(pin "NAND_R{slash}B#" input
 			(at 119.38 143.51 0)
 			(effects
@@ -7177,236 +7147,6 @@
 				(justify right)
 			)
 			(uuid "6af5e526-8f26-45ec-b233-b4cbe0c68051")
-		)
-		(pin "SRAM_A10" bidirectional
-			(at 119.38 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "72095632-6ee1-4b0b-8bf0-41a68a3c105b")
-		)
-		(pin "SRAM_D7" input
-			(at 119.38 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "fd23e50f-4873-4452-a3eb-6293cee34bb6")
-		)
-		(pin "SRAM_D6" input
-			(at 119.38 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "830945e4-c154-4f45-bef6-ca63390b1a82")
-		)
-		(pin "SRAM_D5" input
-			(at 119.38 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "96e1a48a-cfaa-430f-80ce-ef97c7e4fa89")
-		)
-		(pin "SRAM_D4" input
-			(at 119.38 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "91132906-6764-4c34-94f2-e9d9410c92f4")
-		)
-		(pin "SRAM_D3" input
-			(at 119.38 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "5e3251c1-8904-4ae6-a022-2033060c1c5a")
-		)
-		(pin "SRAM_A0" bidirectional
-			(at 119.38 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "1788ea48-a74c-4949-922c-70186adc7dfc")
-		)
-		(pin "SRAM_A2" bidirectional
-			(at 119.38 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "da597542-f09b-485a-ac73-e0fc603cb932")
-		)
-		(pin "SRAM_A1" bidirectional
-			(at 119.38 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "5469a78b-e3c7-4c16-9e5c-3ce83639e54c")
-		)
-		(pin "SRAM_D1" input
-			(at 119.38 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "43eb36fb-c74f-402c-9ddb-d928655ea8e5")
-		)
-		(pin "SRAM_D2" input
-			(at 119.38 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "1462ed73-62fd-4d5d-9c93-7c8a46fb398c")
-		)
-		(pin "SRAM_D0" input
-			(at 119.38 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "6444ea7f-38c7-4357-beff-0b98fb237afd")
-		)
-		(pin "SRAM_A8" bidirectional
-			(at 119.38 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "d0b54e85-dfbc-4b0c-b745-ffbe729aa674")
-		)
-		(pin "SRAM_A11" bidirectional
-			(at 119.38 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "5d253f51-0d9b-4acf-91f6-70934181de63")
-		)
-		(pin "SRAM_A9" bidirectional
-			(at 119.38 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "a1104a8e-0a79-46c6-a6bf-9e3493703b8f")
-		)
-		(pin "SRAM_A13" bidirectional
-			(at 119.38 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "d8f03181-e95a-4ec4-8e54-35866b4717c4")
-		)
-		(pin "SRAM_A14" bidirectional
-			(at 119.38 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "3836897e-d076-42e8-9b87-f89d39792c72")
-		)
-		(pin "SRAM_A12" bidirectional
-			(at 119.38 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "9a45f28d-7abb-4c93-90b9-7c4991607931")
-		)
-		(pin "SRAM_A7" bidirectional
-			(at 119.38 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "cc294d3a-5010-4e41-b081-2a5acdb19691")
-		)
-		(pin "SRAM_A5" bidirectional
-			(at 119.38 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "3d44e650-9759-46f5-9ecb-13cc0abd76f3")
-		)
-		(pin "SRAM_A6" bidirectional
-			(at 119.38 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "3b899d42-4d16-4807-8845-cdb117531520")
-		)
-		(pin "SRAM_A4" bidirectional
-			(at 119.38 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "6927c30c-501d-4873-831c-2f6f7cbfaff0")
-		)
-		(pin "SRAM_A3" bidirectional
-			(at 119.38 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "0616d6f6-20f7-42eb-97f9-ef0f5764a14d")
 		)
 		(pin "NAND_D7" input
 			(at 119.38 114.3 0)
@@ -7527,6 +7267,306 @@
 				(justify right)
 			)
 			(uuid "283b2836-2d05-4041-9105-b1d9ed67140f")
+		)
+		(pin "SDRAM_A4" input
+			(at 119.38 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "41e62d50-c6c8-497c-889d-ba391d1a0b90")
+		)
+		(pin "SDRAM_A6" input
+			(at 119.38 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6f38ae2a-28a0-4b34-a783-8b632b7d7fe3")
+		)
+		(pin "SDRAM_A5" input
+			(at 119.38 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4926001e-84d9-43a9-94c1-b466fb168863")
+		)
+		(pin "SDRAM_A9" input
+			(at 119.38 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f8ce3124-196d-40fd-9238-1a897cfe16c0")
+		)
+		(pin "SDRAM_A7" input
+			(at 119.38 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a42f2f3a-f175-4396-88b4-23598cc95100")
+		)
+		(pin "SDRAM_DQMH" input
+			(at 64.77 57.15 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0ad8e783-417c-4074-ae66-f47b065f6fa4")
+		)
+		(pin "SDRAM_A8" input
+			(at 119.38 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e23ec645-6ccc-4027-8e04-f885544b1884")
+		)
+		(pin "SDRAM_A11" input
+			(at 119.38 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a822fbff-4ce2-426a-9b99-d09796f09f01")
+		)
+		(pin "SDRAM_CLK" input
+			(at 64.77 54.61 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "144285a7-397f-4072-888d-80696bfcaff5")
+		)
+		(pin "SDRAM_CKE" input
+			(at 64.77 52.07 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "65c0dac9-99f7-48f0-aa48-06db96516bbe")
+		)
+		(pin "SDRAM_A12" input
+			(at 119.38 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "832f8bee-dbd3-4e48-bfd5-c816dfa5cc13")
+		)
+		(pin "SDRAM_~{CAS}" input
+			(at 64.77 49.53 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1407f8ab-6a50-46ee-8eaa-fadbeb0bafd2")
+		)
+		(pin "SDRAM_A3" input
+			(at 119.38 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f338883b-fd2f-4091-a4a7-3e2a8ad97b88")
+		)
+		(pin "SDRAM_A2" input
+			(at 119.38 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "026c9ee5-d964-4079-b28e-d301839d1830")
+		)
+		(pin "SDRAM_~{WE}" input
+			(at 64.77 46.99 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f00a6000-c7c0-41cc-a27d-33754f14cffa")
+		)
+		(pin "SDRAM_~{RAS}" input
+			(at 64.77 44.45 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3fb3551e-b70e-4873-a300-4fd34c7c3cec")
+		)
+		(pin "SDRAM_A1" input
+			(at 119.38 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4e993c5c-4148-483c-8d11-44251170f63e")
+		)
+		(pin "SDRAM_~{CS}" input
+			(at 64.77 41.91 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f1cb2a52-731b-49ad-b41d-bed61affffbc")
+		)
+		(pin "SDRAM_BA0" input
+			(at 64.77 59.69 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d4e65b1f-e30d-4abd-9751-215098303022")
+		)
+		(pin "SDRAM_BA1" input
+			(at 64.77 62.23 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a6cb280e-47f8-4814-8070-29097feee193")
+		)
+		(pin "SDRAM_A10" input
+			(at 119.38 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2fdb2d79-ccce-411c-a7ae-2be02776a32e")
+		)
+		(pin "SDRAM_A0" input
+			(at 119.38 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c502c159-7ea7-494a-a007-551026bbd941")
+		)
+		(pin "SDRAM_DQ2" input
+			(at 119.38 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a75f4fc9-c600-4bd3-9dc2-ef712945ae79")
+		)
+		(pin "SDRAM_DQ3" input
+			(at 119.38 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9a27d25d-0bf8-4704-8dfe-4ed297de9f98")
+		)
+		(pin "SDRAM_DQ6" input
+			(at 119.38 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "83635cdc-9b8f-4502-a1fc-c34e720c3070")
+		)
+		(pin "SDRAM_DQ7" input
+			(at 119.38 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "94f4e242-b4ba-49ff-9eba-cdb09bdb14cf")
+		)
+		(pin "SDRAM_DQ5" input
+			(at 119.38 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3d33804c-f133-4e9b-b319-d3118d3d9cdf")
+		)
+		(pin "SDRAM_DQ4" input
+			(at 119.38 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5d6cec2a-bdce-4677-aa52-8b2e4c3ea03b")
+		)
+		(pin "SDRAM_DQ1" input
+			(at 119.38 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4549df9e-0567-48fb-aad4-1306d2a412be")
+		)
+		(pin "SDRAM_DQ0" input
+			(at 119.38 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "90eb286e-1845-4b1a-8668-9bef70d38343")
 		)
 		(instances
 			(project "STM32H7_Board"
