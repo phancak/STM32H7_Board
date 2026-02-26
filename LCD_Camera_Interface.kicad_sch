@@ -775,108 +775,6 @@
 				)
 			)
 		)
-		(symbol "Mechanical:MountingHole_Pad"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole_Pad"
-				(at 0 4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole with connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*Pad*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_Pad_0_1"
-				(circle
-					(center 0 1.27)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MountingHole_Pad_1_1"
-				(pin input line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Personal_Projects:Molex-52437-2471"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1986,12 +1884,6 @@
 		)
 	)
 	(junction
-		(at 40.64 252.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0247c616-3372-4490-86c4-74cb76a6a2d3")
-	)
-	(junction
 		(at 283.21 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2028,12 +1920,6 @@
 		(uuid "8da79f7b-65b0-4072-924f-3d3bdd5c3b90")
 	)
 	(junction
-		(at 58.42 252.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "91e1757c-66ae-4212-a3bb-57f9361add3e")
-	)
-	(junction
 		(at 321.31 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2068,12 +1954,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "efefd171-2f47-4295-a219-9d4e80902136")
-	)
-	(junction
-		(at 49.53 252.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f4c63c5e-005b-4b27-a92b-2626655f0c01")
 	)
 	(no_connect
 		(at 140.97 152.4)
@@ -2137,16 +2017,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 252.73) (xy 58.42 252.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "057c7462-7d4e-4b81-a79c-bd688dd126e0")
-	)
-	(wire
-		(pts
 			(xy 167.64 109.22) (xy 167.64 85.09)
 		)
 		(stroke
@@ -2187,16 +2057,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 251.46) (xy 67.31 252.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14e4aafc-99f2-485d-816d-b448e85dbe9e")
-	)
-	(wire
-		(pts
 			(xy 167.64 85.09) (xy 175.26 85.09)
 		)
 		(stroke
@@ -2224,16 +2084,6 @@
 			(type default)
 		)
 		(uuid "15240f93-3023-4954-8a61-521ddaede2f0")
-	)
-	(wire
-		(pts
-			(xy 49.53 251.46) (xy 49.53 252.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15257c08-0b8b-455b-98b0-3a5616179f5e")
 	)
 	(wire
 		(pts
@@ -2387,16 +2237,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 252.73) (xy 49.53 252.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c8d7d12-1420-4481-b58c-08a8421b2a6e")
-	)
-	(wire
-		(pts
 			(xy 313.69 149.86) (xy 321.31 149.86)
 		)
 		(stroke
@@ -2444,16 +2284,6 @@
 			(type default)
 		)
 		(uuid "617dd5f6-f9ad-406e-81dc-147639d634da")
-	)
-	(wire
-		(pts
-			(xy 58.42 251.46) (xy 58.42 252.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63adbd64-d283-4a19-af28-209fdaf25520")
 	)
 	(wire
 		(pts
@@ -2624,16 +2454,6 @@
 			(type default)
 		)
 		(uuid "89d4e0ae-2d29-4b7d-9364-0b49f0f96938")
-	)
-	(wire
-		(pts
-			(xy 49.53 252.73) (xy 40.64 252.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ceb36ef-8bdb-48fc-b34b-4571bd849bf9")
 	)
 	(wire
 		(pts
@@ -2977,16 +2797,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 251.46) (xy 40.64 252.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9e7ceaf-2235-48dd-ad31-1a90d3944759")
-	)
-	(wire
-		(pts
 			(xy 320.04 130.81) (xy 320.04 132.08)
 		)
 		(stroke
@@ -3067,16 +2877,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 252.73) (xy 40.64 254)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e83edc0d-626e-4260-9694-3f64b0c323e9")
-	)
-	(wire
-		(pts
 			(xy 166.37 148.59) (xy 166.37 144.78)
 		)
 		(stroke
@@ -3154,25 +2954,6 @@
 			(type default)
 		)
 		(uuid "feac340e-34e5-47e5-b9c7-d67e1e9d4b3c")
-	)
-	(text_box "Mounting Holes"
-		(exclude_from_sim no)
-		(at 26.035 231.775 0)
-		(size 58.42 38.735)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "4a28385c-633e-46a1-8848-b36223f7620a")
 	)
 	(text "SDA/SCL I²C address 0x78 (write) \nand 0x79 (read)"
 		(exclude_from_sim no)
@@ -3905,74 +3686,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 67.31 248.92 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0d7fe1f8-c410-41dd-a344-e32b7404908e")
-		(property "Reference" "H4"
-			(at 69.85 246.3799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 69.85 248.9199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
-			(at 67.31 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 67.31 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 67.31 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ae8bcf17-776e-4f59-bce5-f6d44a73b198")
-		)
-		(instances
-			(project "STM32H7_Board"
-				(path "/9b48e30a-b912-4658-a133-1a15707d5b7d/87192e71-4a67-485c-809c-f39ebf355936"
-					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 320.04 132.08 0)
 		(mirror y)
@@ -4392,74 +4105,6 @@
 			(project "STM32H7_Board"
 				(path "/9b48e30a-b912-4658-a133-1a15707d5b7d/87192e71-4a67-485c-809c-f39ebf355936"
 					(reference "#PWR085")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 40.64 248.92 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4697b1ee-1a55-4674-a82a-90a1e021123c")
-		(property "Reference" "H1"
-			(at 43.18 246.3799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 43.18 248.9199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
-			(at 40.64 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 40.64 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 40.64 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cd091329-f4d6-4db5-a8ac-c434e24e5f7a")
-		)
-		(instances
-			(project "STM32H7_Board"
-				(path "/9b48e30a-b912-4658-a133-1a15707d5b7d/87192e71-4a67-485c-809c-f39ebf355936"
-					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -5276,72 +4921,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 40.64 254 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b9115c35-2e81-4f82-aa86-cb0c3affbd15")
-		(property "Reference" "#PWR010"
-			(at 40.64 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 40.64 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 40.64 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 40.64 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 40.64 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a76fefb0-488b-469c-85c9-6cfffb98a25a")
-		)
-		(instances
-			(project "STM32H7_Board"
-				(path "/9b48e30a-b912-4658-a133-1a15707d5b7d/87192e71-4a67-485c-809c-f39ebf355936"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Personal_Projects:Oscillator_ECS-327MVATX-3-CN-TR")
 		(at 313.69 149.86 0)
 		(mirror y)
@@ -5531,142 +5110,6 @@
 			(project "STM32H7_Board"
 				(path "/9b48e30a-b912-4658-a133-1a15707d5b7d/87192e71-4a67-485c-809c-f39ebf355936"
 					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 49.53 248.92 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cf425256-1afa-434d-bd65-c77e4c368641")
-		(property "Reference" "H2"
-			(at 52.07 246.3799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 52.07 248.9199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
-			(at 49.53 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 49.53 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "02380953-d83e-46b7-8e37-3026b5ec072e")
-		)
-		(instances
-			(project "STM32H7_Board"
-				(path "/9b48e30a-b912-4658-a133-1a15707d5b7d/87192e71-4a67-485c-809c-f39ebf355936"
-					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 58.42 248.92 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dc72b059-8084-4685-a415-79c0cf668ad4")
-		(property "Reference" "H3"
-			(at 60.96 246.3799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 60.96 248.9199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
-			(at 58.42 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 58.42 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 58.42 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "606ffd91-ba9e-4c8e-94e8-a93ca9315e08")
-		)
-		(instances
-			(project "STM32H7_Board"
-				(path "/9b48e30a-b912-4658-a133-1a15707d5b7d/87192e71-4a67-485c-809c-f39ebf355936"
-					(reference "H3")
 					(unit 1)
 				)
 			)

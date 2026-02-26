@@ -185,6 +185,7 @@
       "track_widths": [
         0.0,
         0.15,
+        0.1521,
         0.155,
         0.1565,
         0.167,
@@ -539,9 +540,9 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "DCMIPP",
-        "pcb_color": "rgb(0, 194, 194)",
-        "schematic_color": "rgb(204, 102, 0)",
+        "name": "BTB",
+        "pcb_color": "rgb(0, 132, 132)",
+        "schematic_color": "rgb(0, 194, 194)",
         "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
@@ -576,9 +577,9 @@
         "name": "FMC",
         "pcb_color": "rgb(0, 132, 0)",
         "schematic_color": "rgb(132, 132, 132)",
-        "track_width": 0.25,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
+        "track_width": 0.1525,
+        "via_diameter": 0.45,
+        "via_drill": 0.3,
         "wire_width": 6
       },
       {
@@ -593,9 +594,9 @@
         "name": "FMC_ADDR",
         "pcb_color": "rgb(0, 194, 0)",
         "schematic_color": "rgb(72, 72, 72)",
-        "track_width": 0.25,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
+        "track_width": 0.1525,
+        "via_diameter": 0.45,
+        "via_drill": 0.3,
         "wire_width": 6
       },
       {
@@ -610,9 +611,9 @@
         "name": "FMC_DATA",
         "pcb_color": "rgb(0, 255, 0)",
         "schematic_color": "rgb(0, 0, 0)",
-        "track_width": 0.25,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
+        "track_width": 0.1525,
+        "via_diameter": 0.45,
+        "via_drill": 0.3,
         "wire_width": 6
       },
       {
@@ -675,6 +676,23 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
+        "name": "PSSI",
+        "pcb_color": "rgb(0, 132, 132)",
+        "schematic_color": "rgb(0, 255, 0)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "PWR3V3",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(255, 0, 0)",
@@ -695,23 +713,6 @@
         "name": "RESET",
         "pcb_color": "rgb(194, 194, 0)",
         "schematic_color": "rgb(132, 132, 0)",
-        "track_width": 0.25,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "SDMMC",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(0, 194, 194)",
         "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
@@ -762,7 +763,7 @@
         "microvia_drill": 0.1,
         "name": "USB",
         "pcb_color": "rgb(0, 255, 255)",
-        "schematic_color": "rgb(0, 194, 194)",
+        "schematic_color": "rgb(0, 132, 132)",
         "track_width": 0.235,
         "via_diameter": 0.8,
         "via_drill": 0.4,
@@ -840,7 +841,7 @@
         "pattern": "*FMC_D*"
       },
       {
-        "netclass": "DCMIPP",
+        "netclass": "Default",
         "pattern": "*DCMIPP*"
       },
       {
@@ -852,27 +853,27 @@
         "pattern": "*BK1*"
       },
       {
-        "netclass": "SDMMC",
+        "netclass": "Default",
         "pattern": "*SDMMC*"
       },
       {
-        "netclass": "DCMIPP",
+        "netclass": "Default",
         "pattern": "*STROBE*"
       },
       {
-        "netclass": "DCMIPP",
+        "netclass": "Default",
         "pattern": "*PWDN*"
       },
       {
-        "netclass": "DCMIPP",
+        "netclass": "Default",
         "pattern": "*HSYNC*"
       },
       {
-        "netclass": "DCMIPP",
+        "netclass": "Default",
         "pattern": "*VSYNC*"
       },
       {
-        "netclass": "DCMIPP",
+        "netclass": "Default",
         "pattern": "*PF9_TIM14_CH1*"
       },
       {
@@ -886,6 +887,14 @@
       {
         "netclass": "FMC",
         "pattern": "*SDRAM*"
+      },
+      {
+        "netclass": "PSSI",
+        "pattern": "*PSSI*"
+      },
+      {
+        "netclass": "BTB",
+        "pattern": "*BTB*"
       }
     ]
   },
@@ -1014,10 +1023,6 @@
     [
       "c1273a5b-dc13-48da-a35d-ed40e44ccc48",
       "Memory"
-    ],
-    [
-      "87192e71-4a67-485c-809c-f39ebf355936",
-      "Camera_Interface"
     ],
     [
       "d103df48-e796-43e8-90a2-57f3cf29360c",
