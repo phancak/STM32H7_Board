@@ -10177,6 +10177,17 @@
 		)
 		(uuid "1690b50f-133d-4e27-8afd-fd4f6e1ae21d")
 	)
+	(label "FMC_D10_R"
+		(at 175.26 67.31 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "187903d7-9417-49fe-9bb0-6e9e1d5e9385")
+	)
 	(label "PF11_ADC1_INP2"
 		(at 182.88 245.11 90)
 		(fields_autoplaced yes)
@@ -10198,6 +10209,17 @@
 			(justify right bottom)
 		)
 		(uuid "1c163304-d7c2-40c4-881a-42912be97480")
+	)
+	(label "FMC_A8_R"
+		(at 208.28 72.39 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1c840bde-294c-4fae-a86e-e8754a1ccd3e")
 	)
 	(label "PB9_I2C1_SDA"
 		(at 151.13 55.88 270)
@@ -10595,6 +10617,17 @@
 		)
 		(uuid "5a740781-702c-426f-bfd1-6261b965357b")
 	)
+	(label "FMC_A9_R"
+		(at 205.74 72.39 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5b44cc4d-c489-4390-8c91-e1f29841cd95")
+	)
 	(label "PC8_PSSI_D2_R"
 		(at 306.07 165.1 180)
 		(fields_autoplaced yes)
@@ -10649,6 +10682,17 @@
 			(justify right bottom)
 		)
 		(uuid "610df280-2ec1-4db6-9f56-20b778f2dca4")
+	)
+	(label "FMC_A10_R"
+		(at 203.2 72.39 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "63fdb4cc-a795-4b04-acda-09aee12382df")
 	)
 	(label "PP2"
 		(at 215.9 248.92 90)
@@ -10748,6 +10792,17 @@
 			(justify left bottom)
 		)
 		(uuid "742075fd-f1f0-4290-89b0-78acc6923329")
+	)
+	(label "FMC_A11_R"
+		(at 200.66 72.39 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7904fbfb-38b2-4142-a381-1b6c56cdf3cc")
 	)
 	(label "PA6_TIM13_CH1"
 		(at 130.81 210.82 0)
@@ -10935,6 +10990,28 @@
 			(justify right bottom)
 		)
 		(uuid "96d791b0-b653-4605-935b-72d489ad3837")
+	)
+	(label "FMC_D11_R"
+		(at 172.72 67.31 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "96e2033c-1620-4e26-a282-17477ffdc277")
+	)
+	(label "FMC_D9_R"
+		(at 177.8 67.31 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "96e7f924-babf-479d-b1ee-419914e34d64")
 	)
 	(label "PA4_I2S3_WS_R"
 		(at 137.16 200.66 0)

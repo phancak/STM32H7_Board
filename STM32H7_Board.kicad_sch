@@ -4105,7 +4105,7 @@
 		)
 		(uuid "2e17aaa5-3e78-4667-82d5-e310f34d6b3e")
 	)
-	(label "FMC_A0"
+	(label "FMC_A9"
 		(at 119.38 237.49 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4446,17 +4446,6 @@
 		)
 		(uuid "8f80f40e-70e1-4ddb-998b-47bbd1df6f71")
 	)
-	(label "FMC_NOE"
-		(at 119.38 242.57 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "961bfa54-2b1b-482b-8cbd-8a4610b1921a")
-	)
 	(label "FMC_A2"
 		(at 189.23 33.02 180)
 		(fields_autoplaced yes)
@@ -4511,17 +4500,6 @@
 			(justify right bottom)
 		)
 		(uuid "a0f11b1d-9dc1-4387-b3b5-af5c682b401a")
-	)
-	(label "FMC_NE1"
-		(at 119.38 245.11 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a2e307d8-821b-478c-aaf4-d7b8a39685d2")
 	)
 	(label "FMC_A4"
 		(at 189.23 38.1 180)
@@ -4820,17 +4798,6 @@
 		)
 		(uuid "e8103d01-1f9a-479b-b86b-e8219e932bfa")
 	)
-	(label "FMC_NWE"
-		(at 119.38 240.03 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "eb7ace34-b62d-4183-a310-1e2d06544f81")
-	)
 	(label "FMC_D8"
 		(at 189.23 96.52 180)
 		(fields_autoplaced yes)
@@ -4974,7 +4941,7 @@
 			)
 		)
 		(pin "RST_PWR" input
-			(at 317.5 246.38 180)
+			(at 317.5 245.11 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6807,16 +6774,6 @@
 			)
 			(uuid "72db0f94-10fc-43c5-92b5-069850b22adc")
 		)
-		(pin "FMC_A0" bidirectional
-			(at 119.38 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "89dced15-0ff8-45f2-9488-1c9fd512bb31")
-		)
 		(pin "FMC_NWE" bidirectional
 			(at 119.38 240.03 0)
 			(effects
@@ -6826,16 +6783,6 @@
 				(justify right)
 			)
 			(uuid "dc968fca-0817-4b39-8548-62f118b85d4c")
-		)
-		(pin "FMC_NE1" bidirectional
-			(at 119.38 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "00a4b496-9845-4750-a5b4-9c47995921f0")
 		)
 		(pin "LCD_RESET" bidirectional
 			(at 119.38 264.16 0)
@@ -6946,6 +6893,26 @@
 				(justify right)
 			)
 			(uuid "d62fa8e0-6986-4577-96c8-bd8d6cc2f5be")
+		)
+		(pin "FMC_NE3" bidirectional
+			(at 119.38 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "dd5ef1a6-3429-4fb8-a8a0-535d98559fe2")
+		)
+		(pin "FMC_A9" bidirectional
+			(at 119.38 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0078c4b9-30f1-40c8-a88a-8aef295b3345")
 		)
 		(instances
 			(project "STM32H7_Board"

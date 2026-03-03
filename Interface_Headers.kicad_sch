@@ -5,6 +5,225 @@
 	(uuid "02054adb-75a9-44b7-922a-b7ccd0c033a0")
 	(paper "A3")
 	(lib_symbols
+		(symbol "BTN_SKSCLCE010_1"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 19.05 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Personal_Project:Button_SKSCLCE010"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BTN_SKSCLCE010_1_0_1"
+				(polyline
+					(pts
+						(xy 3.964 1.27) (xy 8.536 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.98 1.27) (xy 4.98 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.52 1.27) (xy 7.52 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.52 2.54) (xy 4.98 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.71 -2.54) (xy 3.71 0) (xy 3.964 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 -2.54) (xy 8.89 0) (xy 8.636 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 4.472 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 8.028 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BTN_SKSCLCE010_1_1_1"
+				(pin passive line
+					(at 12.7 0 180)
+					(length 3.7)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 3.7)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -2.54 180)
+					(length 3.7)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 3.7)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
@@ -4004,242 +4223,6 @@
 				)
 			)
 		)
-		(symbol "Personal_Projects:Button_KMR231GLFS"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Personal_Project:Button_KMR231GLFS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Button_KMR231GLFS_0_1"
-				(polyline
-					(pts
-						(xy 3.964 1.27) (xy 8.536 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.98 1.27) (xy 4.98 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.52 1.27) (xy 7.52 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.52 2.54) (xy 4.98 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.71 -2.54) (xy 3.71 0) (xy 3.964 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 -2.54) (xy 8.89 0) (xy 8.636 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 4.472 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 8.028 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Button_KMR231GLFS_1_1"
-				(pin passive line
-					(at 0 0 0)
-					(length 3.7)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 3.7)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 0 180)
-					(length 3.7)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 -2.54 180)
-					(length 3.7)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 -6.35 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Personal_Projects:Diode_BZX84C6V2-7-F"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5249,19 +5232,13 @@
 		(uuid "173aa3a7-bc88-4d4d-84fd-0e158bd5aa66")
 	)
 	(junction
-		(at 363.22 226.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "182eee80-b586-4946-b116-6042582cc4ef")
-	)
-	(junction
 		(at 309.88 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1aa9a2b9-1e3e-4d73-ae28-e1cf28e4bef9")
 	)
 	(junction
-		(at 299.72 208.28)
+		(at 369.57 207.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "226a6482-e218-4227-acfa-c77127d41f03")
@@ -5273,22 +5250,10 @@
 		(uuid "2ad2e3b0-219a-41a5-9072-b5745dee4ba0")
 	)
 	(junction
-		(at 293.37 226.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "483ecac4-1006-4e08-adde-f8ce30fd22c0")
-	)
-	(junction
 		(at 335.28 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "48606e62-32f4-46a0-b752-1af8d2150b5c")
-	)
-	(junction
-		(at 354.33 226.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4d3852b2-9045-4a9d-92a0-57dac72d6e4a")
 	)
 	(junction
 		(at 318.77 109.22)
@@ -5303,16 +5268,10 @@
 		(uuid "59e9cb48-ee73-45ab-bd2e-7737f4a3ce60")
 	)
 	(junction
-		(at 299.72 226.06)
+		(at 369.57 224.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5a6935d2-497f-4ad3-921b-e579de1ff7c3")
-	)
-	(junction
-		(at 360.68 226.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5f34fdf1-57b7-4c3f-9372-34720a0b1181")
 	)
 	(junction
 		(at 318.77 111.76)
@@ -5357,22 +5316,10 @@
 		(uuid "8494fe3f-8700-44f2-9e99-77ace3c27ee1")
 	)
 	(junction
-		(at 302.26 226.06)
+		(at 372.11 224.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8e997588-fa03-48de-b244-f5997214c197")
-	)
-	(junction
-		(at 346.71 208.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9c056a43-923b-460b-9294-aafdc5a8af6f")
-	)
-	(junction
-		(at 285.75 208.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a6a51130-357f-4d12-80c7-2169111884fa")
 	)
 	(junction
 		(at 264.16 83.82)
@@ -5405,12 +5352,6 @@
 		(uuid "c8232c15-031a-4a44-ac70-10fee3ef6199")
 	)
 	(junction
-		(at 360.68 208.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d096060d-ce40-4a4d-a453-523d45102334")
-	)
-	(junction
 		(at 279.4 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5433,6 +5374,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "efc9b188-b990-41f9-9827-9b9e44972551")
+	)
+	(junction
+		(at 358.14 207.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f22157f0-adc0-4acc-8688-1c517485e2c0")
 	)
 	(junction
 		(at 327.66 144.78)
@@ -5480,16 +5427,6 @@
 	)
 	(wire
 		(pts
-			(xy 360.68 223.52) (xy 360.68 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0996cf9a-040a-451f-b6ca-4941d7cb4a81")
-	)
-	(wire
-		(pts
 			(xy 332.74 138.43) (xy 332.74 144.78)
 		)
 		(stroke
@@ -5497,26 +5434,6 @@
 			(type default)
 		)
 		(uuid "0b920834-524b-47b3-9d83-92dd87655beb")
-	)
-	(wire
-		(pts
-			(xy 354.33 226.06) (xy 360.68 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "117612f0-cd9b-40a5-b042-2c8fc6f535ee")
-	)
-	(wire
-		(pts
-			(xy 363.22 223.52) (xy 363.22 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11c54fb1-fc5e-4ac8-a34d-a2b5f2c3401c")
 	)
 	(wire
 		(pts
@@ -5540,7 +5457,7 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 223.52) (xy 299.72 226.06)
+			(xy 369.57 222.25) (xy 369.57 224.79)
 		)
 		(stroke
 			(width 0)
@@ -5587,16 +5504,6 @@
 			(type default)
 		)
 		(uuid "1a4f6f90-0767-4aad-8c99-862ddedb5101")
-	)
-	(wire
-		(pts
-			(xy 360.68 208.28) (xy 360.68 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1db2a013-b021-4592-bc4e-9fe9de67523e")
 	)
 	(wire
 		(pts
@@ -5700,7 +5607,7 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 220.98) (xy 285.75 226.06)
+			(xy 358.14 219.71) (xy 358.14 224.79)
 		)
 		(stroke
 			(width 0)
@@ -5727,16 +5634,6 @@
 			(type default)
 		)
 		(uuid "2dedf335-8e58-4dc6-ac15-9936c3d893d2")
-	)
-	(wire
-		(pts
-			(xy 295.91 217.17) (xy 293.37 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2eced0a9-8659-4e2c-9e61-84f5ef8e90ee")
 	)
 	(wire
 		(pts
@@ -5780,16 +5677,6 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 208.28) (xy 360.68 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3445bc65-d705-4824-be0a-ae458ba6a9aa")
-	)
-	(wire
-		(pts
 			(xy 114.3 82.55) (xy 130.81 82.55)
 		)
 		(stroke
@@ -5820,16 +5707,6 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 217.17) (xy 354.33 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3af72bb9-b706-4deb-8b91-a8861305d80a")
-	)
-	(wire
-		(pts
 			(xy 114.3 107.95) (xy 130.81 107.95)
 		)
 		(stroke
@@ -5857,16 +5734,6 @@
 			(type default)
 		)
 		(uuid "40ad5964-c37b-4a1c-81c5-14c3c9ff32bb")
-	)
-	(wire
-		(pts
-			(xy 360.68 208.28) (xy 363.22 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4617a0e0-0d30-4e01-b6b7-418164a3cb60")
 	)
 	(wire
 		(pts
@@ -5940,16 +5807,6 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 226.06) (xy 354.33 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ad18a3c-7ad0-4cfb-90ad-c8700a2a4e4b")
-	)
-	(wire
-		(pts
 			(xy 68.58 85.09) (xy 88.9 85.09)
 		)
 		(stroke
@@ -5990,7 +5847,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 227.33) (xy 302.26 226.06)
+			(xy 372.11 226.06) (xy 372.11 224.79)
 		)
 		(stroke
 			(width 0)
@@ -6140,7 +5997,7 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 226.06) (xy 302.26 226.06)
+			(xy 369.57 224.79) (xy 372.11 224.79)
 		)
 		(stroke
 			(width 0)
@@ -6150,7 +6007,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 208.28) (xy 302.26 210.82)
+			(xy 372.11 207.01) (xy 372.11 209.55)
 		)
 		(stroke
 			(width 0)
@@ -6197,16 +6054,6 @@
 			(type default)
 		)
 		(uuid "8562e6a6-cba4-49a1-8c1c-dd45e61a1285")
-	)
-	(wire
-		(pts
-			(xy 360.68 226.06) (xy 363.22 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85cb58a5-4476-4c59-afb5-91269e9ab450")
 	)
 	(wire
 		(pts
@@ -6320,7 +6167,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 208.28) (xy 285.75 208.28)
+			(xy 342.9 207.01) (xy 358.14 207.01)
 		)
 		(stroke
 			(width 0)
@@ -6380,16 +6227,6 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 208.28) (xy 346.71 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "972d4245-053d-4cf0-80df-d80816b01252")
-	)
-	(wire
-		(pts
 			(xy 318.77 97.79) (xy 294.64 97.79)
 		)
 		(stroke
@@ -6400,23 +6237,13 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 208.28) (xy 285.75 213.36)
+			(xy 358.14 207.01) (xy 358.14 212.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "98aef77f-d8bf-4433-952c-39ff2ce13f48")
-	)
-	(wire
-		(pts
-			(xy 363.22 208.28) (xy 363.22 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9927afaf-851b-4f8d-95ca-0c3ca524a3a2")
 	)
 	(wire
 		(pts
@@ -6540,16 +6367,6 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 227.33) (xy 363.22 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6e4081b-daf8-4cb2-8324-406a729370ec")
-	)
-	(wire
-		(pts
 			(xy 114.3 120.65) (xy 130.81 120.65)
 		)
 		(stroke
@@ -6670,7 +6487,7 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 208.28) (xy 299.72 210.82)
+			(xy 369.57 207.01) (xy 369.57 209.55)
 		)
 		(stroke
 			(width 0)
@@ -6700,7 +6517,7 @@
 	)
 	(wire
 		(pts
-			(xy 293.37 226.06) (xy 299.72 226.06)
+			(xy 358.14 224.79) (xy 369.57 224.79)
 		)
 		(stroke
 			(width 0)
@@ -6740,7 +6557,7 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 208.28) (xy 302.26 208.28)
+			(xy 369.57 207.01) (xy 372.11 207.01)
 		)
 		(stroke
 			(width 0)
@@ -6777,16 +6594,6 @@
 			(type default)
 		)
 		(uuid "c7af5a60-4440-47c5-aa29-8f1bda445564")
-	)
-	(wire
-		(pts
-			(xy 285.75 208.28) (xy 299.72 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7afa249-e5f6-42c8-af9d-afb9037c962e")
 	)
 	(wire
 		(pts
@@ -6830,16 +6637,6 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 208.28) (xy 346.71 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d063e401-10c7-4152-a038-e646e0ba12fd")
-	)
-	(wire
-		(pts
 			(xy 160.02 250.19) (xy 171.45 250.19)
 		)
 		(stroke
@@ -6850,23 +6647,13 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 223.52) (xy 302.26 226.06)
+			(xy 372.11 222.25) (xy 372.11 224.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d1d3b9cb-39a8-4e20-a6d6-ba6f12106912")
-	)
-	(wire
-		(pts
-			(xy 285.75 226.06) (xy 293.37 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3a8541b-d891-4d4e-99ab-fcdff16efc92")
 	)
 	(wire
 		(pts
@@ -6910,6 +6697,16 @@
 	)
 	(wire
 		(pts
+			(xy 358.14 207.01) (xy 369.57 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db764c4f-1867-40a0-9892-723549a34333")
+	)
+	(wire
+		(pts
 			(xy 313.69 88.9) (xy 313.69 86.36)
 		)
 		(stroke
@@ -6927,16 +6724,6 @@
 			(type default)
 		)
 		(uuid "df01de4b-baf5-48fb-8495-fb96f7a49adb")
-	)
-	(wire
-		(pts
-			(xy 293.37 217.17) (xy 293.37 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e178a419-fc50-478c-a69c-9cc17190eda0")
 	)
 	(wire
 		(pts
@@ -6980,16 +6767,6 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 217.17) (xy 354.33 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6aabb7c-0619-4f49-979b-d8500d9a54be")
-	)
-	(wire
-		(pts
 			(xy 294.64 144.78) (xy 279.4 144.78)
 		)
 		(stroke
@@ -7007,16 +6784,6 @@
 			(type default)
 		)
 		(uuid "e8c5e72f-92e9-484b-a5c7-6dcee14b8dd2")
-	)
-	(wire
-		(pts
-			(xy 346.71 220.98) (xy 346.71 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea9527d2-30fe-4587-aa0b-116092c1b9f8")
 	)
 	(wire
 		(pts
@@ -7120,8 +6887,8 @@
 	)
 	(text_box "Buttons"
 		(exclude_from_sim no)
-		(at 246.38 193.04 0)
-		(size 151.13 48.895)
+		(at 316.23 191.77 0)
+		(size 79.375 48.895)
 		(stroke
 			(width 0)
 			(type dash)
@@ -7527,7 +7294,7 @@
 		(uuid "844a634e-b398-4470-a924-1ed46fb42503")
 	)
 	(label "RST_BTN"
-		(at 273.05 208.28 0)
+		(at 342.9 207.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7943,17 +7710,6 @@
 			(justify left bottom)
 		)
 		(uuid "f3c1cf9f-cdd1-40bc-84ff-8a08815252e2")
-	)
-	(label "USR_BTN"
-		(at 326.39 208.28 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f8fb4ca0-0f58-46d6-9323-5f60f5a66f05")
 	)
 	(label "BTB11"
 		(at 68.58 107.95 0)
@@ -8577,18 +8333,6 @@
 		)
 		(uuid "c0abc0a9-13c7-4892-823b-a9b3127cf03b")
 	)
-	(hierarchical_label "USR_BTN"
-		(shape output)
-		(at 326.39 208.28 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c3fe8213-3050-45d8-87af-d14b70156744")
-	)
 	(hierarchical_label "BTB25"
 		(shape bidirectional)
 		(at 68.58 143.51 180)
@@ -8675,7 +8419,7 @@
 	)
 	(hierarchical_label "RST_BTN"
 		(shape output)
-		(at 273.05 208.28 180)
+		(at 342.9 207.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8854,6 +8598,83 @@
 			(project "STM32H7_Board"
 				(path "/9b48e30a-b912-4658-a133-1a15707d5b7d/d103df48-e796-43e8-90a2-57f3cf29360c"
 					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BTN_SKSCLCE010_1")
+		(lib_id "Personal_Projects:BTN_SKSCLCE010")
+		(at 372.11 209.55 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ca65ba8-a78b-4f7e-b30d-a80db7bfef41")
+		(property "Reference" "U2"
+			(at 375.92 215.2649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 375.92 217.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Personal_Project:Button_SKSCLCE010"
+			(at 378.46 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 372.11 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 372.11 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01f650c2-028e-42e0-b130-4cc0325bf5cb")
+		)
+		(pin "2"
+			(uuid "d451256e-4f86-4152-86af-e991399892ed")
+		)
+		(pin "4"
+			(uuid "322639fc-cee8-4431-9255-98f2fe54b649")
+		)
+		(pin "3"
+			(uuid "91fa48ab-9c54-4ca4-9e47-d100b6648999")
+		)
+		(instances
+			(project ""
+				(path "/9b48e30a-b912-4658-a133-1a15707d5b7d/d103df48-e796-43e8-90a2-57f3cf29360c"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -9637,74 +9458,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 346.71 217.17 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "528cabb4-c205-48d6-971d-f270a0b87bb6")
-		(property "Reference" "C65"
-			(at 344.932 215.138 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1uF"
-			(at 344.424 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 347.6752 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 346.71 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 346.71 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "faf3bc6d-3921-46cd-b96c-d7b2126f0661")
-		)
-		(pin "2"
-			(uuid "4e2bcc52-2d04-45fd-ae52-7b14c489b308")
-		)
-		(instances
-			(project "STM32H7_Board"
-				(path "/9b48e30a-b912-4658-a133-1a15707d5b7d/d103df48-e796-43e8-90a2-57f3cf29360c"
-					(reference "C65")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 39.37 251.46 0)
 		(unit 1)
@@ -10041,153 +9794,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 363.22 227.33 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "896d78ee-33a6-4c40-8a8e-6bc1380d5b60")
-		(property "Reference" "#PWR0123"
-			(at 363.22 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 365.76 228.5999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 363.22 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 363.22 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 363.22 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d4a992a5-ba64-4ac9-b0be-ff4174c53359")
-		)
-		(instances
-			(project "STM32H7_Board"
-				(path "/9b48e30a-b912-4658-a133-1a15707d5b7d/d103df48-e796-43e8-90a2-57f3cf29360c"
-					(reference "#PWR0123")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Personal_Projects:Button_KMR231GLFS")
-		(at 302.26 210.82 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8a6f8ecf-7720-466e-9a69-c5def670a225")
-		(property "Reference" "U1"
-			(at 306.07 216.5349 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 306.07 218.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Personal_Project:Button_KMR231GLFS"
-			(at 302.26 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 302.26 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 302.26 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "1efd5fa3-9e36-4b6a-8283-bb347b389355")
-		)
-		(pin "3"
-			(uuid "473c02f5-7a55-40cd-ba5f-70c3ee6e200e")
-		)
-		(pin "5"
-			(uuid "ace3049f-88e8-4c46-bfcb-9314f9bcfe4b")
-		)
-		(pin "2"
-			(uuid "33f90122-e5af-45e4-9df6-44cddca5b603")
-		)
-		(pin "1"
-			(uuid "6027ff22-4569-4ef5-9056-8016641c7c1d")
-		)
-		(instances
-			(project "STM32H7_Board"
-				(path "/9b48e30a-b912-4658-a133-1a15707d5b7d/d103df48-e796-43e8-90a2-57f3cf29360c"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 200.66 80.01 0)
 		(unit 1)
@@ -10254,7 +9860,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 302.26 227.33 0)
+		(at 372.11 226.06 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10264,7 +9870,7 @@
 		(fields_autoplaced yes)
 		(uuid "9fe88886-3156-4594-8430-3540e25f29b1")
 		(property "Reference" "#PWR0122"
-			(at 302.26 233.68 0)
+			(at 372.11 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10273,7 +9879,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 304.8 228.5999 0)
+			(at 374.65 227.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10282,7 +9888,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 302.26 227.33 0)
+			(at 372.11 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10291,7 +9897,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 302.26 227.33 0)
+			(at 372.11 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10300,7 +9906,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 302.26 227.33 0)
+			(at 372.11 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10600,7 +10206,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 285.75 217.17 0)
+		(at 358.14 215.9 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10609,7 +10215,7 @@
 		(dnp no)
 		(uuid "e28a4830-6716-4f54-bf5c-793e81aa9dfc")
 		(property "Reference" "C64"
-			(at 283.972 215.138 0)
+			(at 355.6 213.614 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10617,7 +10223,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 283.464 219.71 0)
+			(at 355.854 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10625,7 +10231,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 286.7152 213.36 0)
+			(at 359.1052 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10634,7 +10240,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 285.75 217.17 0)
+			(at 358.14 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10643,7 +10249,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 285.75 217.17 0)
+			(at 358.14 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10726,85 +10332,6 @@
 			(project "STM32H7_Board"
 				(path "/9b48e30a-b912-4658-a133-1a15707d5b7d/d103df48-e796-43e8-90a2-57f3cf29360c"
 					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Personal_Projects:Button_KMR231GLFS")
-		(at 363.22 210.82 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f13c6982-aabb-417a-831f-ecd59fb9eda8")
-		(property "Reference" "U8"
-			(at 367.03 216.5349 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 367.03 218.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Personal_Project:Button_KMR231GLFS"
-			(at 363.22 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 363.22 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 363.22 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "13d6d933-5bc6-4747-b10b-3bb15f0aa65f")
-		)
-		(pin "3"
-			(uuid "cfcd2f59-0669-45eb-b22b-bff10914c69e")
-		)
-		(pin "5"
-			(uuid "e1c6acc2-491e-40c5-a60a-48e67b743ab0")
-		)
-		(pin "2"
-			(uuid "3b6bf3e4-bef0-427f-af79-fa76b7e84800")
-		)
-		(pin "1"
-			(uuid "fa0d4659-1fef-4701-a45a-8d5612033015")
-		)
-		(instances
-			(project "STM32H7_Board"
-				(path "/9b48e30a-b912-4658-a133-1a15707d5b7d/d103df48-e796-43e8-90a2-57f3cf29360c"
-					(reference "U8")
 					(unit 1)
 				)
 			)
