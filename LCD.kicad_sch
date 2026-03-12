@@ -2922,6 +2922,12 @@
 		(uuid "4106d9e1-6b29-4dda-95e8-f5a38e8d6cab")
 	)
 	(junction
+		(at 176.53 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42b597c2-9bc4-4aa7-979f-baf25e0b621f")
+	)
+	(junction
 		(at 259.08 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3010,12 +3016,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b538048d-24aa-43ea-b2af-8feb9d1a1911")
-	)
-	(junction
-		(at 259.08 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b6a9d714-b416-4b07-b5e4-8e0d5eb19e85")
 	)
 	(junction
 		(at 259.08 171.45)
@@ -3112,16 +3112,6 @@
 			(type default)
 		)
 		(uuid "0cda3d1e-9ee9-43d0-a2c8-fdcef17a25c3")
-	)
-	(wire
-		(pts
-			(xy 214.63 135.89) (xy 259.08 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e10854b-c97b-4dbd-8a74-eaac08dccd24")
 	)
 	(wire
 		(pts
@@ -3295,7 +3285,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 135.89) (xy 259.08 138.43)
+			(xy 259.08 133.35) (xy 259.08 138.43)
 		)
 		(stroke
 			(width 0)
@@ -3435,13 +3425,13 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 133.35) (xy 259.08 135.89)
+			(xy 214.63 135.89) (xy 229.87 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "615ca9fd-415a-4a1d-8d1d-d79b7e78f903")
+		(uuid "5fddf410-7ed7-43b8-a71f-7d12360f1487")
 	)
 	(wire
 		(pts
@@ -3575,6 +3565,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 113.03) (xy 176.53 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a113675-85fd-4055-8a15-f49c32010b51")
+	)
+	(wire
+		(pts
 			(xy 259.08 181.61) (xy 259.08 182.88)
 		)
 		(stroke
@@ -3645,7 +3645,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 115.57) (xy 172.72 115.57)
+			(xy 189.23 115.57) (xy 176.53 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3855,6 +3855,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 113.03) (xy 172.72 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbb09877-b03f-4041-94b0-3e09a7bf8406")
+	)
+	(wire
+		(pts
 			(xy 259.08 140.97) (xy 259.08 143.51)
 		)
 		(stroke
@@ -3885,7 +3895,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 113.03) (xy 172.72 113.03)
+			(xy 189.23 113.03) (xy 176.53 113.03)
 		)
 		(stroke
 			(width 0)
@@ -4073,6 +4083,17 @@
 		)
 		(uuid "a86c20c8-a7e3-412c-84c6-1f31c3521653")
 	)
+	(label "LCD_RESET"
+		(at 229.87 135.89 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a9d6c20c-5d0b-4f63-9331-11ca43f75921")
+	)
 	(label "FMC_D7"
 		(at 172.72 173.99 0)
 		(fields_autoplaced yes)
@@ -4193,17 +4214,6 @@
 			(justify left bottom)
 		)
 		(uuid "f4d98efa-732c-4542-a063-666725539694")
-	)
-	(label "LCD_RESET"
-		(at 172.72 115.57 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f5418a66-65c4-4102-b5c2-5829df22a242")
 	)
 	(label "FMC_NWE"
 		(at 172.72 166.37 0)
@@ -4482,15 +4492,15 @@
 	)
 	(hierarchical_label "LCD_RESET"
 		(shape bidirectional)
-		(at 172.72 115.57 180)
+		(at 229.87 135.89 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "f90f17dc-6c9d-42ae-b3b4-a416dd7ebf6c")
+		(uuid "f2c34387-9bf9-4381-95be-7d58bab95fb9")
 	)
 	(symbol
 		(lib_id "power:GND")

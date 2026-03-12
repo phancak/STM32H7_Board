@@ -4213,25 +4213,6 @@
 		)
 		(uuid "fdb1a8cf-c42e-423e-afa6-54cfb7331b85")
 	)
-	(text_box "Note:\nSDRAM\n- CKE Clock Enable (LOW) can be put into a low power state To enter a deep sleep Issue a SELF REFRESH command  while CKE is pulled Low\n\nNAND\n- Use FMC_NCE CE Chip Enable (HIGH) to put into low power mode"
-		(exclude_from_sim no)
-		(at 27.94 224.79 0)
-		(size 45.085 45.72)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify left top)
-		)
-		(uuid "2681a5f9-d9a8-41b6-a230-2bcf6a600dff")
-	)
 	(text_box "NAND Flash Memory"
 		(exclude_from_sim no)
 		(at 212.725 55.245 0)
@@ -4251,27 +4232,15 @@
 		)
 		(uuid "bd8dd2c8-f203-44e8-8971-ab6605b7c29d")
 	)
-	(text "0.1µF (100nF) ceramic capacitor per VCC and VCCQ pin\nPlace 100nF capacitors as close as possible to each \npower pin to filter high-frequency noise.\nBulk Capacitor near one of the VCC pins (Pin 38 or Pin 48)."
+	(text "MT29F1G08ABAEAWP-ITX:E TR"
 		(exclude_from_sim no)
-		(at 277.368 93.472 0)
+		(at 291.592 105.156 0)
 		(effects
 			(font
 				(size 1 1)
 			)
-			(justify left)
 		)
-		(uuid "2a8465af-2ba6-4aca-9523-995a73a54adb")
-	)
-	(label "VDDQ_4"
-		(at 161.29 119.38 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "00229df2-a0d9-4799-85b5-a7f5184185df")
+		(uuid "068faf7c-91d1-4e28-ac29-f255a2e318d0")
 	)
 	(label "SDRAM_CKE"
 		(at 161.29 149.86 180)
@@ -4327,17 +4296,6 @@
 			(justify left bottom)
 		)
 		(uuid "0a9aecb3-9230-4d9d-86c0-7362be1f153c")
-	)
-	(label "VSSQ_2"
-		(at 93.98 134.62 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1163fcf7-4ce4-4c22-83bf-6531b49dc8e8")
 	)
 	(label "SDRAM_~{CS}"
 		(at 93.98 152.4 0)
@@ -4504,17 +4462,6 @@
 		)
 		(uuid "53a8c680-736a-47eb-8c97-7a4217aa012d")
 	)
-	(label "VDD_3"
-		(at 93.98 172.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "59343ea7-70fb-47d8-8cb9-6a9af1205d95")
-	)
 	(label "SDRAM_BA0"
 		(at 93.98 154.94 0)
 		(fields_autoplaced yes)
@@ -4525,28 +4472,6 @@
 			(justify left bottom)
 		)
 		(uuid "59be6012-26fb-4e2d-a395-8c91c08997ac")
-	)
-	(label "VDDQ_2"
-		(at 93.98 127 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5db2bf29-dfc3-41dd-a969-5b836f675896")
-	)
-	(label "VSSQ_3"
-		(at 161.29 127 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5f7ff35d-c849-4692-a0f4-c0d3b8e5d2fc")
 	)
 	(label "NAND_CE#"
 		(at 256.54 135.89 0)
@@ -4625,39 +4550,6 @@
 		)
 		(uuid "7924e635-eecb-42ae-8958-6f2da68808bd")
 	)
-	(label "VSSQ_4"
-		(at 161.29 111.76 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8257b95a-a2d7-4720-a42f-072766bd5bf0")
-	)
-	(label "VDD_2"
-		(at 93.98 139.7 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "91d4423a-5006-428f-9e19-acfff162d279")
-	)
-	(label "VDDQ_1"
-		(at 93.98 111.76 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "92fc2226-4980-4824-9b25-64a9de5b1fd4")
-	)
 	(label "NAND_D4"
 		(at 313.69 133.35 0)
 		(fields_autoplaced yes)
@@ -4691,17 +4583,6 @@
 		)
 		(uuid "a8095bb6-a6a7-47b2-8e59-378a54a52754")
 	)
-	(label "VSSQ_1"
-		(at 93.98 119.38 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "abb2811f-9571-40f4-b395-b888c1db1e80")
-	)
 	(label "SDRAM_DQMH"
 		(at 161.29 144.78 180)
 		(fields_autoplaced yes)
@@ -4712,17 +4593,6 @@
 			(justify right bottom)
 		)
 		(uuid "b18a7cc3-f7c6-44a1-827b-98a0a7e02555")
-	)
-	(label "VSS_1"
-		(at 161.29 172.72 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b1d73549-bc43-4035-83f8-6d35549cb936")
 	)
 	(label "NAND_D6"
 		(at 313.69 128.27 0)
@@ -4745,17 +4615,6 @@
 			(justify left bottom)
 		)
 		(uuid "b47ed9d2-959b-42b6-8713-740ce5a3ce4c")
-	)
-	(label "VDDQ_3"
-		(at 161.29 134.62 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b4b20f0b-2774-4893-a916-a1a00460de66")
 	)
 	(label "NAND_RE#"
 		(at 256.54 133.35 0)
@@ -4789,17 +4648,6 @@
 			(justify right bottom)
 		)
 		(uuid "ba112643-fe4e-419c-b287-a8e44052f08e")
-	)
-	(label "VSS_3"
-		(at 161.29 106.68 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c0d7736d-96a9-4c49-b3ff-be06a5f45ceb")
 	)
 	(label "NAND_D1"
 		(at 313.69 161.29 0)
@@ -4856,17 +4704,6 @@
 		)
 		(uuid "deae3844-8612-4e1c-a428-1b189ec5e24c")
 	)
-	(label "VSS_2"
-		(at 161.29 139.7 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ead3295d-558c-4d52-a48b-dfe5a9f00b17")
-	)
 	(label "SDRAM_DQ4"
 		(at 161.29 132.08 180)
 		(fields_autoplaced yes)
@@ -4888,17 +4725,6 @@
 			(justify left bottom)
 		)
 		(uuid "fca24c27-e5e7-447f-bcfe-d8e63ade2301")
-	)
-	(label "VDD_1"
-		(at 93.98 106.68 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fcff457b-5804-4d9d-9b62-7f1d951d61e4")
 	)
 	(label "SDRAM_DQ6"
 		(at 161.29 116.84 180)
@@ -5879,7 +5705,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_1"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 266.192 123.19 90)
 			(effects
 				(font
@@ -7307,7 +7133,7 @@
 				)
 			)
 		)
-		(property "Value" "NAND_MT29F1G08ABAEAWP-IT_E_TR"
+		(property "Value" "NAND_MT29F2G08ABAGAWP-IT:G"
 			(at 289.56 110.49 0)
 			(effects
 				(font
