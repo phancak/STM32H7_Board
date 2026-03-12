@@ -1,5 +1,11 @@
 # STM32H7S3 High-Performance Modular Compute Platform
 
+<div align="center">
+  <img src="docs/STM32H7S3_Board_Title_Image.png" alt="STM32H7S3 PCB 3D Render" width="800">
+  <br>
+  <em>A high-resolution 3D render of the completed 4-layer PCB.</em>
+</div>
+
 ![Hardware](https://img.shields.io/badge/PCB-4--Layer-blue)
 ![MCU](https://img.shields.io/badge/MCU-STM32H7S3-orange)
 ![Design](https://img.shields.io/badge/Status-In--Development-green)
