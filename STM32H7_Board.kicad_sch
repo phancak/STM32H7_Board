@@ -5870,16 +5870,6 @@
 			)
 			(uuid "800181c1-cac9-42fb-891b-9eeffe302238")
 		)
-		(pin "PA4_I2S3_WS" output
-			(at 245.11 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "ed2ac2bf-2be1-4071-a580-f9586effe474")
-		)
 		(pin "PD15" bidirectional
 			(at 190.5 189.23 180)
 			(effects
@@ -6299,6 +6289,16 @@
 				(justify right)
 			)
 			(uuid "ce95ffd1-dae2-4d6b-bd94-a05e7c7eb454")
+		)
+		(pin "PA4_I2S1_WS" output
+			(at 245.11 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "96768272-a858-4bef-a743-086a301fbb87")
 		)
 		(instances
 			(project "STM32H7_Board"

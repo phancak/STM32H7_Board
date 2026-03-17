@@ -11092,7 +11092,7 @@
 		)
 		(uuid "96e7f924-babf-479d-b1ee-419914e34d64")
 	)
-	(label "PA4_I2S3_WS_R"
+	(label "PA4_I2S1_WS_R"
 		(at 137.16 200.66 0)
 		(fields_autoplaced yes)
 		(effects
@@ -11521,7 +11521,7 @@
 		)
 		(uuid "c28e6541-ce85-43f7-b338-380f5d040cb8")
 	)
-	(label "PA4_I2S3_WS"
+	(label "PA4_I2S1_WS"
 		(at 68.58 207.01 0)
 		(fields_autoplaced yes)
 		(effects
@@ -12758,7 +12758,7 @@
 		)
 		(uuid "96316fa2-cc54-46f0-8cbf-0f4527bc2543")
 	)
-	(hierarchical_label "PA4_I2S3_WS"
+	(hierarchical_label "PA4_I2S1_WS"
 		(shape output)
 		(at 68.58 207.01 180)
 		(fields_autoplaced yes)
