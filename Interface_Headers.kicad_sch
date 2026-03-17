@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "02054adb-75a9-44b7-922a-b7ccd0c033a0")
 	(paper "A3")
+	(title_block
+		(title "STM32H7S3 Board")
+		(date "2026-03-17")
+		(rev "B")
+		(company "Peter Hancak")
+	)
 	(lib_symbols
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
