@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "86889e9c-a096-458f-877b-6f85431bf2cf")
 	(paper "A3")
+	(title_block
+		(title "STM32H7S3 Board")
+		(date "2026-03-17")
+		(rev "B")
+		(company "Peter Hancak")
+	)
 	(lib_symbols
 		(symbol "Personal_Projects:BTB_10132798-062100LF"
 			(pin_names

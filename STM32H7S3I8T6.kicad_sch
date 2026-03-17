@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "6074bbc3-69e1-4c05-824f-858f3ba6d8de")
 	(paper "A3")
+	(title_block
+		(title "STM32H7S3 Board")
+		(date "2026-03-17")
+		(rev "B")
+		(company "Peter Hancak")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers hide)
@@ -9768,26 +9774,6 @@
 		)
 		(uuid "fff0c4e3-0bbe-4a7a-b29b-2efc730999ba")
 	)
-	(text "VDD50USB: external power supply for USB regulator"
-		(exclude_from_sim no)
-		(at 254 113.03 90)
-		(effects
-			(font
-				(size 1 1)
-			)
-		)
-		(uuid "085a51e2-6198-4b9e-9b40-8f897187a83f")
-	)
-	(text "VDDA: external analog power supply \nfor ADCs and voltage reference buffers"
-		(exclude_from_sim no)
-		(at 181.61 184.15 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-		)
-		(uuid "095c0a6f-b933-4826-af27-04f40ea5b29c")
-	)
 	(text "PH1-OSC_OUT pin must be left HI-Z"
 		(exclude_from_sim no)
 		(at 134.62 156.21 0)
@@ -9797,16 +9783,6 @@
 			)
 		)
 		(uuid "09e2d0e1-7e8a-4dc6-b5a2-952d210056a5")
-	)
-	(text "VSSSMPS: separate step-down converter ground"
-		(exclude_from_sim no)
-		(at 189.23 127 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-		)
-		(uuid "0dc04479-ae58-4017-912f-50bc6369f62e")
 	)
 	(text "600Ohm at 100MHz"
 		(exclude_from_sim no)
@@ -9818,37 +9794,6 @@
 		)
 		(uuid "2077e53e-a145-4ab4-bc43-fd743eb7ea64")
 	)
-	(text "VDD33USB: USB regulator supply output for USB interface"
-		(exclude_from_sim no)
-		(at 251.46 115.57 90)
-		(effects
-			(font
-				(size 1 1)
-			)
-		)
-		(uuid "46056fb0-a8d2-4690-8b55-fb9efa8a6125")
-	)
-	(text "The external Octo and HexaSPI \npower supply (VDDXSPI1, VDDXSPI2) \nis 1.8 V"
-		(exclude_from_sim no)
-		(at 299.466 246.888 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify left)
-		)
-		(uuid "617e9567-be44-4f7e-b9fe-f9a7a76d455f")
-	)
-	(text "VREF+: external reference voltage for ADC."
-		(exclude_from_sim no)
-		(at 184.15 177.8 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-		)
-		(uuid "66791f6e-6093-402a-9606-d1f5759a3149")
-	)
 	(text "OSC32_OUT pin must be left HI-Z"
 		(exclude_from_sim no)
 		(at 83.82 102.87 0)
@@ -9858,36 +9803,6 @@
 			)
 		)
 		(uuid "66fca94b-064b-4c7c-b236-a4f18c50d923")
-	)
-	(text "VDDLDO: external power supply for voltage regulator"
-		(exclude_from_sim no)
-		(at 180.34 110.49 90)
-		(effects
-			(font
-				(size 1 1)
-			)
-		)
-		(uuid "6a1af570-1880-45fb-a558-64e3434ff09a")
-	)
-	(text "enabled by USBREGEN bit in the PWR \ncontrol register 2 (PWR_CSR2),"
-		(exclude_from_sim no)
-		(at 295.148 19.812 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-		)
-		(uuid "6a2fedf3-66c2-460b-ab37-bac5c86cec9d")
-	)
-	(text "VLXSMPS: step-down converter supply output"
-		(exclude_from_sim no)
-		(at 186.69 129.54 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-		)
-		(uuid "6e9f8391-0423-4b67-baf0-1af3eac1b858")
 	)
 	(text "PIN1 NC = Oscillation"
 		(exclude_from_sim no)
@@ -9901,67 +9816,6 @@
 		)
 		(uuid "9890ec81-5952-435b-a780-6d308cdbf1bb")
 	)
-	(text "VDDSMPS: external power supply for the SMPS step-down converter"
-		(exclude_from_sim no)
-		(at 195.58 132.08 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-		)
-		(uuid "9d691e44-d83f-443e-b8a4-19d8f10e0fe2")
-	)
-	(text "VCAP: digital core domain supply"
-		(exclude_from_sim no)
-		(at 187.96 101.6 90)
-		(effects
-			(font
-				(size 1 1)
-			)
-		)
-		(uuid "a79467d0-e818-465b-971e-d1cf2f7955aa")
-	)
-	(text "VSSA: separate analog and reference voltage ground"
-		(exclude_from_sim no)
-		(at 186.69 175.26 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-		)
-		(uuid "b16fb01c-8380-41b8-88f4-c4af7d67068c")
-	)
-	(text "Direct SMPS supply (LDO off)"
-		(exclude_from_sim no)
-		(at 372.11 194.31 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify left)
-		)
-		(uuid "ce33dc58-3431-4f14-a5e2-98ec9c9295c5")
-	)
-	(text "VSS: common ground for all supplies except \nfor step-down converter and analog\nperipherals"
-		(exclude_from_sim no)
-		(at 248.92 184.15 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-		)
-		(uuid "d8618ed8-fb46-4b6f-b85d-ddf7e3049afb")
-	)
-	(text "VDD: external power supply for I/Os and \nsystem analog blocks such as reset, power\nmanagement and oscillators"
-		(exclude_from_sim no)
-		(at 187.96 163.83 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-		)
-		(uuid "d8b69cc1-995b-4089-838b-89d290a08a19")
-	)
 	(text "VDDxspi1,VDDxspi2: external power supply for \ndedicated I/Os (Octo SPI and Hexa Deca\nSPI memories)"
 		(exclude_from_sim no)
 		(at 243.84 205.74 0)
@@ -9971,16 +9825,6 @@
 			)
 		)
 		(uuid "dbb8c8d8-bd06-460b-8449-bc6b4d549a33")
-	)
-	(text "VFBSMPS: step-down converter sense feedback"
-		(exclude_from_sim no)
-		(at 187.96 134.62 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-		)
-		(uuid "dd2eb337-f242-42b0-864e-c7adbd111fb3")
 	)
 	(text "USB regulator supply input"
 		(exclude_from_sim no)

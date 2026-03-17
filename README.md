@@ -10,6 +10,9 @@
 ![MCU](https://img.shields.io/badge/MCU-STM32H7S3-orange)
 ![Design](https://img.shields.io/badge/Status-In--Development-green)
 
+## 📑 Quick Access
+* [**📂 View Project Schematics (PDF)**](./Schematics/ADC_CS5381KKSZ_Board_Schematics.pdf)
+
 ## 📌 Project Overview
 This project features a professional-grade, high-speed embedded system centered around the **STM32H7S3I8T6** (ARM Cortex-M7 running at 600 MHz). Developed as a post-graduate technical showcase, this board demonstrates proficiency in high-speed digital design, complex memory interfacing (SDRAM/NAND), and modular system architecture.
 
