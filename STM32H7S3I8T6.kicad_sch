@@ -5311,10 +5311,6 @@
 		(uuid "9ba6a310-fc20-4a08-9658-01d70530cb88")
 	)
 	(no_connect
-		(at 85.09 204.47)
-		(uuid "9ca632c3-665c-448b-b48e-897dd722958b")
-	)
-	(no_connect
 		(at 220.98 54.61)
 		(uuid "a2501541-b574-43d0-a1fc-3bb915989c99")
 	)
@@ -5345,10 +5341,6 @@
 	(no_connect
 		(at 259.08 270.51)
 		(uuid "e78ea36e-bbc3-4222-bee5-94fb9c596f05")
-	)
-	(no_connect
-		(at 95.25 204.47)
-		(uuid "e9c2e32f-5475-43bf-b93c-21fa7ad1edb7")
 	)
 	(no_connect
 		(at 154.94 129.54)
@@ -5443,16 +5435,6 @@
 			(type default)
 		)
 		(uuid "0a069570-9a06-4326-b8fc-31b5a7b7e188")
-	)
-	(wire
-		(pts
-			(xy 134.62 232.41) (xy 162.56 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a3da578-4a73-431f-b960-8c57804997cb")
 	)
 	(wire
 		(pts
@@ -5953,16 +5935,6 @@
 			(type default)
 		)
 		(uuid "20a21bc6-3130-41c9-89d3-88f80374517b")
-	)
-	(wire
-		(pts
-			(xy 128.27 201.93) (xy 95.25 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20e5f6fc-4f64-40b4-ba31-36509354f6d7")
 	)
 	(wire
 		(pts
@@ -7686,16 +7658,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 209.55) (xy 133.35 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84192b98-e272-48fb-9b0f-0361e8b6840d")
-	)
-	(wire
-		(pts
 			(xy 69.85 154.94) (xy 68.58 154.94)
 		)
 		(stroke
@@ -7733,16 +7695,6 @@
 			(type default)
 		)
 		(uuid "856a2ff2-909f-4de3-958b-b37e99358fba")
-	)
-	(wire
-		(pts
-			(xy 95.25 207.01) (xy 130.81 207.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87e6d80d-e748-4117-a155-cbbfd45a9655")
 	)
 	(wire
 		(pts
@@ -7826,7 +7778,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 232.41) (xy 127 232.41)
+			(xy 101.6 232.41) (xy 162.56 232.41)
 		)
 		(stroke
 			(width 0)
@@ -8026,7 +7978,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 209.55) (xy 85.09 209.55)
+			(xy 68.58 209.55) (xy 133.35 209.55)
 		)
 		(stroke
 			(width 0)
@@ -8516,7 +8468,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 207.01) (xy 85.09 207.01)
+			(xy 68.58 207.01) (xy 130.81 207.01)
 		)
 		(stroke
 			(width 0)
@@ -9686,7 +9638,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 201.93) (xy 85.09 201.93)
+			(xy 68.58 201.93) (xy 128.27 201.93)
 		)
 		(stroke
 			(width 0)
@@ -10309,17 +10261,6 @@
 		)
 		(uuid "3701696b-2e12-41b1-ade0-67bc8b521ba3")
 	)
-	(label "PA3_I2S6_MCK_R"
-		(at 130.81 193.04 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "387b0169-d77f-460f-adbd-e8b2a6986e18")
-	)
 	(label "PM9"
 		(at 236.22 62.23 90)
 		(fields_autoplaced yes)
@@ -10495,17 +10436,6 @@
 			(justify left bottom)
 		)
 		(uuid "52ea362c-a29b-4006-91d2-2e41b2169025")
-	)
-	(label "PA5_I2S1_C_R"
-		(at 137.16 203.2 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "539f5498-15a3-4efa-bab5-231b103ffdd9")
 	)
 	(label "FMC_A1"
 		(at 97.79 170.18 0)
@@ -10936,17 +10866,6 @@
 		)
 		(uuid "96e7f924-babf-479d-b1ee-419914e34d64")
 	)
-	(label "PA4_I2S1_WS_R"
-		(at 137.16 200.66 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "97a3bc48-6a4d-4622-b39c-c5027aeab4fb")
-	)
 	(label "FMC_NCE_R"
 		(at 127 255.27 180)
 		(fields_autoplaced yes)
@@ -11012,17 +10931,6 @@
 			(justify right bottom)
 		)
 		(uuid "9dbe9e39-e8a4-481a-a839-eaca885a8143")
-	)
-	(label "PA7_I2S6_SDO_R"
-		(at 146.05 232.41 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a1832ef0-8802-4d06-b473-aea7d0335b7c")
 	)
 	(label "FMC_D13_R"
 		(at 139.7 114.3 0)
@@ -16015,93 +15923,6 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack04")
-		(at 90.17 207.01 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "479847d8-3189-4a4a-8642-50d2ddfc8991")
-		(property "Reference" "RN12"
-			(at 83.058 211.582 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "33R"
-			(at 93.98 211.582 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0402"
-			(at 90.17 213.995 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4 resistor network, parallel topology"
-			(at 90.17 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "237e39e5-01ce-4194-b89e-5aec36a91a69")
-		)
-		(pin "1"
-			(uuid "ba65e0df-e6cf-40f2-b008-616abc425296")
-		)
-		(pin "8"
-			(uuid "126920b8-3a6c-4122-996c-f6efcfc66293")
-		)
-		(pin "4"
-			(uuid "315763f1-fcbd-4238-8c98-e29e3459aea9")
-		)
-		(pin "3"
-			(uuid "cc6dcd78-a641-49c7-ab5c-0339d09eba9e")
-		)
-		(pin "7"
-			(uuid "959f7388-0ecb-42d2-b29f-b65d63dd56cc")
-		)
-		(pin "5"
-			(uuid "4ea4ddc6-10b9-46ab-ac14-d1a6fd0ea379")
-		)
-		(pin "6"
-			(uuid "fd8238f6-7e0a-4535-af12-93f14fefb0b9")
-		)
-		(instances
-			(project "STM32H7_Board"
-				(path "/9b48e30a-b912-4658-a133-1a15707d5b7d/c1266206-99aa-4330-9c51-1a1fe13fdf97"
-					(reference "RN12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Pack04")
 		(at 90.17 257.81 90)
 		(mirror x)
 		(unit 1)
@@ -19939,73 +19760,6 @@
 			(project "STM32H7_Board"
 				(path "/9b48e30a-b912-4658-a133-1a15707d5b7d/c1266206-99aa-4330-9c51-1a1fe13fdf97"
 					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 130.81 232.41 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "caf5504c-7bbe-4b70-bc64-3efd521dbae5")
-		(property "Reference" "R6"
-			(at 125.984 231.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33R"
-			(at 135.636 231.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 130.81 234.188 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 130.81 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 130.81 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "56a0cdd5-32eb-41e4-9185-1473afdfc4ca")
-		)
-		(pin "2"
-			(uuid "f14db7f8-1e5e-4384-aa4f-843dcd111a30")
-		)
-		(instances
-			(project "STM32H7_Board"
-				(path "/9b48e30a-b912-4658-a133-1a15707d5b7d/c1266206-99aa-4330-9c51-1a1fe13fdf97"
-					(reference "R6")
 					(unit 1)
 				)
 			)
