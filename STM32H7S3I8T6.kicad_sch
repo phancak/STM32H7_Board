@@ -5251,12 +5251,12 @@
 		(uuid "03dc83b5-d0cf-4ebc-8222-5763302bcb9b")
 	)
 	(no_connect
-		(at 264.16 270.51)
-		(uuid "0c173c96-c723-4886-b20a-e49d0d3cdd3e")
+		(at 170.18 49.53)
+		(uuid "0726e091-dbaa-4e56-972d-ddd761889646")
 	)
 	(no_connect
-		(at 175.26 59.69)
-		(uuid "0e76d065-f17c-482d-af43-b0b318463a8d")
+		(at 264.16 270.51)
+		(uuid "0c173c96-c723-4886-b20a-e49d0d3cdd3e")
 	)
 	(no_connect
 		(at 115.57 154.94)
@@ -5307,16 +5307,16 @@
 		(uuid "8d755c3d-8d7e-498d-82ce-c5a212aedb52")
 	)
 	(no_connect
-		(at 175.26 49.53)
-		(uuid "9ba6a310-fc20-4a08-9658-01d70530cb88")
-	)
-	(no_connect
 		(at 220.98 54.61)
 		(uuid "a2501541-b574-43d0-a1fc-3bb915989c99")
 	)
 	(no_connect
 		(at 85.09 260.35)
 		(uuid "a8040ef9-e0ef-4491-8214-f60c0b220be5")
+	)
+	(no_connect
+		(at 170.18 59.69)
+		(uuid "aa7dda4c-876f-43cc-8528-0cc5871bd1eb")
 	)
 	(no_connect
 		(at 220.98 44.45)
@@ -6238,16 +6238,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 35.56) (xy 170.18 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ecdff22-ba57-48d2-83bd-e22bcad73a70")
-	)
-	(wire
-		(pts
 			(xy 154.94 139.7) (xy 121.92 139.7)
 		)
 		(stroke
@@ -6325,16 +6315,6 @@
 			(type default)
 		)
 		(uuid "35479710-172f-4195-9f7c-0f7eea4946b5")
-	)
-	(wire
-		(pts
-			(xy 172.72 62.23) (xy 172.72 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36ebfeef-05a1-4e80-8aae-d7186134a5c9")
 	)
 	(wire
 		(pts
@@ -6535,16 +6515,6 @@
 			(type default)
 		)
 		(uuid "438cc3d0-3587-4d8b-924b-b239e89215ff")
-	)
-	(wire
-		(pts
-			(xy 172.72 64.77) (xy 170.18 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43bea88a-4480-4f7d-9520-75b47d2a9d3c")
 	)
 	(wire
 		(pts
@@ -6798,6 +6768,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 59.69) (xy 172.72 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52385e72-2a76-476c-8596-e8ec6137a143")
+	)
+	(wire
+		(pts
 			(xy 78.74 152.4) (xy 68.58 152.4)
 		)
 		(stroke
@@ -6845,6 +6825,16 @@
 			(type default)
 		)
 		(uuid "5603e9cd-91d3-4745-8264-021c8f3f214a")
+	)
+	(wire
+		(pts
+			(xy 175.26 59.69) (xy 175.26 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "568b3c27-41fc-422d-843e-e509c73c2671")
 	)
 	(wire
 		(pts
@@ -7648,16 +7638,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 62.23) (xy 175.26 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "834d3033-31d2-4352-8429-f812c084c896")
-	)
-	(wire
-		(pts
 			(xy 69.85 154.94) (xy 68.58 154.94)
 		)
 		(stroke
@@ -7875,16 +7855,6 @@
 			(type default)
 		)
 		(uuid "90282efa-8520-4e67-af19-479b8c080748")
-	)
-	(wire
-		(pts
-			(xy 172.72 64.77) (xy 172.72 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "905436ea-3730-4bc2-9e62-d5fdcab79d6a")
 	)
 	(wire
 		(pts
@@ -8848,16 +8818,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 64.77) (xy 170.18 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce5a4691-abe9-49fc-946c-6a171f8e0923")
-	)
-	(wire
-		(pts
 			(xy 128.27 193.04) (xy 128.27 201.93)
 		)
 		(stroke
@@ -8988,13 +8948,13 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 35.56) (xy 172.72 49.53)
+			(xy 175.26 35.56) (xy 175.26 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d512dd89-91ed-4acd-9a30-2a2c91dad8d1")
+		(uuid "d4f93bfb-6576-49b2-b8aa-0c33ac0b54d5")
 	)
 	(wire
 		(pts
@@ -9338,16 +9298,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 62.23) (xy 172.72 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7906f9c-468d-4ed5-80de-8f9c541b39f0")
-	)
-	(wire
-		(pts
 			(xy 125.73 160.02) (xy 125.73 157.48)
 		)
 		(stroke
@@ -9545,6 +9495,16 @@
 			(type default)
 		)
 		(uuid "f7a3af15-2d10-40db-a005-18ebf8d7877e")
+	)
+	(wire
+		(pts
+			(xy 172.72 35.56) (xy 172.72 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8269814-8aab-4d14-ba08-776a277afe66")
 	)
 	(wire
 		(pts
@@ -9822,7 +9782,7 @@
 		(uuid "022b63fb-e947-4b31-abf4-7d820af5fcd0")
 	)
 	(label "FMC_D10"
-		(at 172.72 35.56 270)
+		(at 175.26 35.56 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10724,7 +10684,7 @@
 		(uuid "848ffcdd-401a-4306-af9d-be00c9cd470c")
 	)
 	(label "FMC_D11"
-		(at 170.18 35.56 270)
+		(at 172.72 35.56 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12452,7 +12412,7 @@
 	)
 	(hierarchical_label "FMC_D11"
 		(shape bidirectional)
-		(at 170.18 35.56 90)
+		(at 172.72 35.56 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12572,7 +12532,7 @@
 	)
 	(hierarchical_label "FMC_D10"
 		(shape bidirectional)
-		(at 172.72 35.56 90)
+		(at 175.26 35.56 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
