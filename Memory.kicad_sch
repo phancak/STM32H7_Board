@@ -6524,7 +6524,7 @@
 				)
 			)
 		)
-		(property "Value" "SDRAM_IS42S83200J-7TLI"
+		(property "Value" "SDRAM_AS4C32M8SA-7TCN"
 			(at 125.73 101.6 0)
 			(effects
 				(font

@@ -4950,14 +4950,14 @@
 		(dnp no)
 		(uuid "a1313f8e-f70f-404f-8043-6bdb9c82416f")
 		(property "Reference" "SMPS1"
-			(at 208.28 81.534 0)
+			(at 210.058 81.534 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Value" "SMPS_TPS62420DRCTG4"
+		(property "Value" "SMPS_TPS62420DRCT"
 			(at 218.44 84.836 0)
 			(effects
 				(font
