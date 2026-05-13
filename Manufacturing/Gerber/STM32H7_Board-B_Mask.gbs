@@ -1,12 +1,12 @@
 G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,8.0.6*
-G04 #@! TF.CreationDate,2026-03-22T13:56:02-07:00*
-G04 #@! TF.ProjectId,STM32H7_Board,53544d33-3248-4375-9f42-6f6172642e6b,rev?*
+G04 #@! TF.CreationDate,2026-05-12T17:56:18-07:00*
+G04 #@! TF.ProjectId,STM32H7_Board,53544d33-3248-4375-9f42-6f6172642e6b,B*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Soldermask,Bot*
 G04 #@! TF.FilePolarity,Negative*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 8.0.6) date 2026-03-22 13:56:02*
+G04 Created by KiCad (PCBNEW 8.0.6) date 2026-05-12 17:56:18*
 %MOMM*%
 %LPD*%
 G01*

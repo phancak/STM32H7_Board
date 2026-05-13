@@ -272,22 +272,20 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "IC"
-				(at 26.67 7.62 0)
+			(property "Reference" "IC1"
+				(at 15.24 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Value" "NAND_MT29F1G08ABAEAWP-IT_E_TR"
-				(at 26.67 5.08 0)
+			(property "Value" "NAND_MX30LF1G18AC-TI"
+				(at 15.24 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
 			(property "Footprint" "Personal_Project:NAND_MT29F1G08ABAEAWP-IT_E_TR_SOP50P2000X120-48N"
@@ -942,7 +940,7 @@
 				(pin passive line
 					(at 30.48 -25.4 180)
 					(length 5.08)
-					(name "DNU_1"
+					(name "PT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2856,10 +2854,6 @@
 		(uuid "c32d30f8-6177-470f-8577-8eb978263746")
 	)
 	(no_connect
-		(at 304.8 140.97)
-		(uuid "ce76d2cf-ae93-4c9c-912b-1364408fa39c")
-	)
-	(no_connect
 		(at 304.8 135.89)
 		(uuid "d2a09651-076f-4dce-ab74-a5b01899ff05")
 	)
@@ -3428,6 +3422,16 @@
 			(type default)
 		)
 		(uuid "5d3384e7-4221-4850-956a-e008b3e12432")
+	)
+	(wire
+		(pts
+			(xy 304.8 140.97) (xy 309.88 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ecd8b06-54fe-452d-9409-856ee4de0449")
 	)
 	(wire
 		(pts
@@ -7053,6 +7057,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 309.88 140.97 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d897ee16-c0be-4eff-983a-70bd90199493")
+		(property "Reference" "#PWR056"
+			(at 316.23 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 314.96 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 309.88 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 309.88 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 309.88 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15fa2e73-8dd1-4f18-b719-0980fc8c034d")
+		)
+		(instances
+			(project "STM32H7_Board"
+				(path "/9b48e30a-b912-4658-a133-1a15707d5b7d/c1273a5b-dc13-48da-a35d-ed40e44ccc48"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 92.71 83.82 0)
 		(unit 1)
@@ -7139,7 +7211,7 @@
 				)
 			)
 		)
-		(property "Value" "NAND_MT29F2G08ABAGAWP-IT:G"
+		(property "Value" "NAND_MX30LF1G18AC-TI"
 			(at 289.56 110.49 0)
 			(effects
 				(font
