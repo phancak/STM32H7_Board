@@ -867,7 +867,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "Schematics/",
+      "plot": "Manufacturing/Gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
