@@ -5174,7 +5174,7 @@
 			)
 		)
 		(property "Value" "SMPS_OUT2_3V3+"
-			(at 294.894 153.162 0)
+			(at 302.26 157.734 90)
 			(effects
 				(font
 					(size 1.27 1.27)
