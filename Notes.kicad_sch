@@ -1,0 +1,54 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "6c4510e8-dc7f-45f8-af9d-cfdecd7d8092")
+	(paper "A4")
+	(title_block
+		(title "STM32H7S3 Board")
+		(date "2026-03-17")
+		(rev "B")
+		(company "Peter Hancak")
+	)
+	(lib_symbols)
+	(text_box "POWER MANAGEMENT NOTES:\n- The Power Budget Breakdown\n  - The LM66100 is rated for a maximum continuous current (I MAX) of 1.5 A across an input voltage range of 1.5 V to 5.5 V. Let's add up the peak consumption of your components on the target 3.3V power domain:\n  - STM32H7S3I8T6: Running at its maximum core clock of 600 MHz under a heavy DSP/graphics load, the MCU itself will draw roughly 150 mA to 220 mA.\n  - AS4C32M8SA-7TCN (256Mb SDRAM): High-speed continuous burst reading/writing for frame-buffering the LCD draws a maximum peak current of around 90 mA to 120 mA.\n  - MX30LF1G18AC-TI (1Gb SLC NAND Flash): During an active page program or block erase sequence, it draws a peak of roughly 30 mA.\n  - ILI9488 LCD Module: The controller logic itself only draws a tiny few milliamps, but the LED Backlight panel is power-hungry. At full brightness, a standard 3.5-inch panel draws between 90 mA to 150 mA.\nTotal Worst-Case Peak Consumption:\nTotal Current≈220 mA+120 mA+30 mA+150 mA=520 mA"
+		(exclude_from_sim no)
+		(at 20.32 21.59 0)
+		(size 109.22 50.8)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "4c28d1be-7306-4660-8cc2-be19a80324ac")
+	)
+	(text_box "HARDWARE DESIGN CONSIDERATIONS:\n- Border/space around the clock IC\n- Clock trace isolation\n- Impedance matching (USB, SPI, RF)\n- Length matching\n- Solid GND plane under high speed signals and RF\n- Decoupling capacitors\n- Power outtput filtering (remove harmonics)\n- Stitching vias beside signal vias\n"
+		(exclude_from_sim no)
+		(at 20.32 80.01 0)
+		(size 109.22 50.8)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "bffb9a73-1637-47f8-858e-e492c23f6235")
+	)
+)
