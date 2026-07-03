@@ -31,7 +31,7 @@
 		)
 		(uuid "4c28d1be-7306-4660-8cc2-be19a80324ac")
 	)
-	(text_box "HARDWARE DESIGN CONSIDERATIONS:\n- Border/space around the clock IC\n- Clock trace isolation\n- Impedance matching (USB, SPI, RF)\n- Length matching\n- Solid GND plane under high speed signals and RF\n- Decoupling capacitors\n- Power outtput filtering (remove harmonics)\n- Stitching vias beside signal vias\n"
+	(text_box "HARDWARE DESIGN CONSIDERATIONS:\n- Border/space around the clock IC\n- Clock trace isolation\n- Impedance matching (USB, SPI, RF)\n- Length matching\n- Solid GND plane under high speed signals and RF\n- Decoupling capacitors\n- Power outtput filtering (remove harmonics)\n- Stitching vias beside signal vias\n\nPSSI INTERFACE CLOCK: Fly-By (Daisy-Chain) topology\n[ External Oscillator ]->[ Sender Pin ] (STM32 PSSI_CLK)->[ 15 cm Trace ]->[ Receiver Pin ]\n- The external oscillator drops the clock edge right at the Sender's doorstep.\nThe Sender senses the clock and immediately dumps data onto the data lines (PSSI_D0-PSSI_D15).\nNow, both the Clock and the Data leave the Sender at the exact same moment.\nThey run down the 15 cm track side-by-side like runners in parallel lanes. Because you will use KiCad's length tuner to make the PSSI_CLK line match the length of the data lines, they will cross the finish line at the Receiver at the exact same instant (T=1.4 ns).\nBy forcing the clock to travel with the data rather than racing ahead of it, the Receiver gets a perfectly aligned window where the data is stable right when the clock edge hits."
 		(exclude_from_sim no)
 		(at 20.32 80.01 0)
 		(size 109.22 50.8)
