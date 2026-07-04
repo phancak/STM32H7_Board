@@ -11,7 +11,7 @@
 ![Design](https://img.shields.io/badge/Status-In--Development-green)
 
 ## 📑 Quick Access
-* [**📂 View Project Schematics (PDF)**](./Schematics/STM32H7_Board_Schematics.pdf)
+* [**📂 View Project Schematics (PDF)**](./Schematics/STM32H7_Board.pdf)
 * [**📂 View PCB Layout (PDF)**](./PCB_Layout/STM32H7_Board.pdf)
 
 ## 📌 Project Overview
