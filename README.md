@@ -1,7 +1,7 @@
 # STM32H7S3 High-Performance Modular Compute Platform
 
 <div align="center">
-  <img src="Docs/STM32H7_Board_PCB.png" alt="STM32H7S3 PCB 3D Render" width="800">
+  <img src="Docs/STM32H7_Board_PCB_1.png" alt="STM32H7S3 PCB 3D Render" width="800">
   <br>
   <em>4-layer PCB diagram.</em>
 </div>
