@@ -1,7 +1,7 @@
 # STM32H7S3 High-Performance Modular Compute Platform
 
 <div align="center">
-  <img src="Docs/STM32H7S3_Board_Title_Image.png" alt="STM32H7S3 PCB 3D Render" width="800">
+  <img src="Docs/STM32H7_Board_PCB_1.png" alt="STM32H7S3 PCB 3D Render" width="800">
   <br>
   <em>4-layer PCB diagram.</em>
 </div>
@@ -11,7 +11,8 @@
 ![Design](https://img.shields.io/badge/Status-In--Development-green)
 
 ## 📑 Quick Access
-* [**📂 View Project Schematics (PDF)**](./Schematics/STM32H7_Board_Schematics.pdf)
+* [**📂 View Project Schematics (PDF)**](./Schematics/STM32H7_Board.pdf)
+* [**📂 View PCB Layout (PDF)**](./PCB_Layout/STM32H7_Board.pdf)
 
 ## 📌 Project Overview
 This project features a professional-grade, high-speed embedded system centered around the **STM32H7S3I8T6** (ARM Cortex-M7 running at 600 MHz). Developed as a post-graduate technical showcase, this board demonstrates proficiency in high-speed digital design, complex memory interfacing (SDRAM/NAND), and modular system architecture.
