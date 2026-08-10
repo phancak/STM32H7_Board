@@ -2681,6 +2681,16 @@
 		)
 		(uuid "068faf7c-91d1-4e28-ac29-f255a2e318d0")
 	)
+	(text "TC58BVG0S3HTA00 LCSC"
+		(exclude_from_sim no)
+		(at 291.846 101.092 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9c4dd90f-cce0-476f-a986-6a2a5baad5cd")
+	)
 	(text_box "NAND Flash Memory"
 		(exclude_from_sim no)
 		(at 212.725 55.245 0)
@@ -7558,7 +7568,7 @@
 				)
 			)
 		)
-		(property "Value" "NAND_MX30LF1G18AC-TI"
+		(property "Value" "NAND_MX30LF1G28AD-TI"
 			(at 289.56 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)

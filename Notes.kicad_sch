@@ -51,4 +51,24 @@
 		)
 		(uuid "bffb9a73-1637-47f8-858e-e492c23f6235")
 	)
+	(text_box "PROJECT GOALS:\n- SDRAM Incorporation into MCU\n- NAND Flash\n- LCD expansion /working with memory\n- PSSI /with external clock\n  - Work as a master\n  - Stream video over wifi /w wifi board\n- I2S Audio Streaming\n  - Ouput to DAC board\n  - Input from ADC board\n"
+		(exclude_from_sim no)
+		(at 20.32 137.16 0)
+		(size 109.22 50.8)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "fac81663-c2b5-4564-8980-4db2f16da0e3")
+	)
 )
